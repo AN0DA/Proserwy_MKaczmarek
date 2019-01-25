@@ -1,0 +1,850 @@
+desc: (none)
+cmd: /usr/bin/dircolors -b
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=206756
+mem_heap_B=5
+mem_heap_extra_B=19
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=210116
+mem_heap_B=2356
+mem_heap_extra_B=68
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=213402
+mem_heap_B=2572
+mem_heap_extra_B=84
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=214940
+mem_heap_B=3108
+mem_heap_extra_B=108
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=218183
+mem_heap_B=3884
+mem_heap_extra_B=212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=222139
+mem_heap_B=3908
+mem_heap_extra_B=236
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=225227
+mem_heap_B=3932
+mem_heap_extra_B=260
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=227520
+mem_heap_B=3944
+mem_heap_extra_B=272
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=231394
+mem_heap_B=3968
+mem_heap_extra_B=296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=235428
+mem_heap_B=3992
+mem_heap_extra_B=320
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=239273
+mem_heap_B=4060
+mem_heap_extra_B=380
+mem_stacks_B=0
+heap_tree=detailed
+n4: 4060 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+ n1: 120 0x489785C: _nl_load_locale_from_archive (loadarchive.c:460)
+  n1: 120 0x4896A52: _nl_find_locale (findlocale.c:154)
+   n1: 120 0x4896162: setlocale (setlocale.c:340)
+    n1: 120 0x10A3ED: ??? (in /usr/bin/dircolors)
+     n0: 120 0x488B099: (below main) (libc-start.c:308)
+ n0: 46 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=241577
+mem_heap_B=8129
+mem_heap_extra_B=407
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=245730
+mem_heap_B=8583
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=detailed
+n7: 8583 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4064 0x10E1AC: ??? (in /usr/bin/dircolors)
+  n1: 4064 0x10A570: ??? (in /usr/bin/dircolors)
+   n0: 4064 0x488B099: (below main) (libc-start.c:308)
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x48956A9: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCF9: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x4895775: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCB5: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+ n1: 120 0x489785C: _nl_load_locale_from_archive (loadarchive.c:460)
+  n1: 120 0x4896A52: _nl_find_locale (findlocale.c:154)
+   n1: 120 0x4896162: setlocale (setlocale.c:340)
+    n1: 120 0x10A3ED: ??? (in /usr/bin/dircolors)
+     n0: 120 0x488B099: (below main) (libc-start.c:308)
+ n0: 89 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=248887
+mem_heap_B=8580
+mem_heap_extra_B=428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=250653
+mem_heap_B=8589
+mem_heap_extra_B=435
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=253735
+mem_heap_B=8580
+mem_heap_extra_B=428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=256795
+mem_heap_B=8579
+mem_heap_extra_B=429
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=259789
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=262893
+mem_heap_B=8580
+mem_heap_extra_B=428
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=265909
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=268991
+mem_heap_B=8579
+mem_heap_extra_B=429
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=272007
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=276619
+mem_heap_B=8583
+mem_heap_extra_B=425
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=279635
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=282246
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=285486
+mem_heap_B=8586
+mem_heap_extra_B=422
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=290217
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=293185
+mem_heap_B=8581
+mem_heap_extra_B=427
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=297527
+mem_heap_B=8579
+mem_heap_extra_B=429
+mem_stacks_B=0
+heap_tree=detailed
+n7: 8579 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4064 0x10E1AC: ??? (in /usr/bin/dircolors)
+  n1: 4064 0x10A570: ??? (in /usr/bin/dircolors)
+   n0: 4064 0x488B099: (below main) (libc-start.c:308)
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x48956A9: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCF9: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x4895775: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCB5: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+ n1: 120 0x489785C: _nl_load_locale_from_archive (loadarchive.c:460)
+  n1: 120 0x4896A52: _nl_find_locale (findlocale.c:154)
+   n1: 120 0x4896162: setlocale (setlocale.c:340)
+    n1: 120 0x10A3ED: ??? (in /usr/bin/dircolors)
+     n0: 120 0x488B099: (below main) (libc-start.c:308)
+ n0: 85 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=30
+#-----------
+time=301673
+mem_heap_B=8583
+mem_heap_extra_B=425
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=304204
+mem_heap_B=8594
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=306617
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=311153
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=313823
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=318113
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=322434
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=325664
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=327751
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=330809
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=335072
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=337217
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=340596
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=342743
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=detailed
+n7: 8578 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4064 0x10E1AC: ??? (in /usr/bin/dircolors)
+  n1: 4064 0x10A570: ??? (in /usr/bin/dircolors)
+   n0: 4064 0x488B099: (below main) (libc-start.c:308)
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x48956A9: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCF9: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x4895775: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCB5: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+ n1: 120 0x489785C: _nl_load_locale_from_archive (loadarchive.c:460)
+  n1: 120 0x4896A52: _nl_find_locale (findlocale.c:154)
+   n1: 120 0x4896162: setlocale (setlocale.c:340)
+    n1: 120 0x10A3ED: ??? (in /usr/bin/dircolors)
+     n0: 120 0x488B099: (below main) (libc-start.c:308)
+ n0: 84 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=345770
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=348889
+mem_heap_B=8584
+mem_heap_extra_B=448
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=353086
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=detailed
+n7: 8577 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4064 0x10E1AC: ??? (in /usr/bin/dircolors)
+  n1: 4064 0x10A570: ??? (in /usr/bin/dircolors)
+   n0: 4064 0x488B099: (below main) (libc-start.c:308)
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x48956A9: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCF9: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x4895775: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCB5: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+ n1: 120 0x489785C: _nl_load_locale_from_archive (loadarchive.c:460)
+  n1: 120 0x4896A52: _nl_find_locale (findlocale.c:154)
+   n1: 120 0x4896162: setlocale (setlocale.c:340)
+    n1: 120 0x10A3ED: ??? (in /usr/bin/dircolors)
+     n0: 120 0x488B099: (below main) (libc-start.c:308)
+ n0: 83 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=47
+#-----------
+time=357407
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=361728
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=363904
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=detailed
+n7: 8577 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4064 0x10E1AC: ??? (in /usr/bin/dircolors)
+  n1: 4064 0x10A570: ??? (in /usr/bin/dircolors)
+   n0: 4064 0x488B099: (below main) (libc-start.c:308)
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x48956A9: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCF9: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x4895775: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCB5: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+ n1: 120 0x489785C: _nl_load_locale_from_archive (loadarchive.c:460)
+  n1: 120 0x4896A52: _nl_find_locale (findlocale.c:154)
+   n1: 120 0x4896162: setlocale (setlocale.c:340)
+    n1: 120 0x10A3ED: ??? (in /usr/bin/dircolors)
+     n0: 120 0x488B099: (below main) (libc-start.c:308)
+ n0: 83 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=365541
+mem_heap_B=8583
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=367314
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=368961
+mem_heap_B=8576
+mem_heap_extra_B=432
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=370548
+mem_heap_B=8583
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=372292
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=373949
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=375555
+mem_heap_B=8583
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=377270
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=378896
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=380502
+mem_heap_B=8583
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=detailed
+n7: 8583 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4064 0x10E1AC: ??? (in /usr/bin/dircolors)
+  n1: 4064 0x10A570: ??? (in /usr/bin/dircolors)
+   n0: 4064 0x488B099: (below main) (libc-start.c:308)
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x48956A9: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCF9: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x4895775: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCB5: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+ n1: 120 0x489785C: _nl_load_locale_from_archive (loadarchive.c:460)
+  n1: 120 0x4896A52: _nl_find_locale (findlocale.c:154)
+   n1: 120 0x4896162: setlocale (setlocale.c:340)
+    n1: 120 0x10A3ED: ??? (in /usr/bin/dircolors)
+     n0: 120 0x488B099: (below main) (libc-start.c:308)
+ n0: 89 in 5 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=382335
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=383984
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=385611
+mem_heap_B=8583
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=387415
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=389041
+mem_heap_B=8577
+mem_heap_extra_B=431
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=390618
+mem_heap_B=8583
+mem_heap_extra_B=449
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=392482
+mem_heap_B=8578
+mem_heap_extra_B=430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=394206
+mem_heap_B=12668
+mem_heap_extra_B=420
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=395582
+mem_heap_B=12668
+mem_heap_extra_B=420
+mem_stacks_B=0
+heap_tree=peak
+n7: 12668 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 4096 0x48E5C9A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 4096 0x48F4EC0: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x48F3FC6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:752)
+    n1: 4096 0x48F2A13: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1251)
+     n1: 4096 0x48F158A: fputs_unlocked (iofputs_u.c:37)
+      n1: 4096 0x10A66F: ??? (in /usr/bin/dircolors)
+       n0: 4096 0x488B099: (below main) (libc-start.c:308)
+ n1: 4064 0x10E1AC: ??? (in /usr/bin/dircolors)
+  n1: 4064 0x10A570: ??? (in /usr/bin/dircolors)
+   n0: 4064 0x488B099: (below main) (libc-start.c:308)
+ n1: 3728 0x4897067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x48978C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4896A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4896162: setlocale (setlocale.c:340)
+     n1: 3728 0x10A3ED: ??? (in /usr/bin/dircolors)
+      n0: 3728 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x48956A9: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCF9: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n1: 208 0x4895775: __gconv_lookup_cache (gconv_cache.c:366)
+  n1: 208 0x488CF60: __gconv_find_transform (gconv_db.c:737)
+   n1: 208 0x492CCB5: __wcsmbs_load_conv (wcsmbsload.c:91)
+    n1: 208 0x492D377: __mbsrtowcs_l (wcsmbsload.h:74)
+     n1: 208 0x494E71D: fnmatch@@GLIBC_2.2.5 (fnmatch.c:346)
+      n1: 208 0x10ADFD: ??? (in /usr/bin/dircolors)
+       n1: 208 0x10A6A3: ??? (in /usr/bin/dircolors)
+        n0: 208 0x488B099: (below main) (libc-start.c:308)
+ n0: 198 in 6 places, all below massif's threshold (1.00%)
+ n2: 166 0x49010A8: strdup (strdup.c:42)
+  n1: 144 0x48961B4: setlocale (setlocale.c:369)
+   n1: 144 0x10A3ED: ??? (in /usr/bin/dircolors)
+    n0: 144 0x488B099: (below main) (libc-start.c:308)
+  n0: 22 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=69
+#-----------
+time=398425
+mem_heap_B=8560
+mem_heap_extra_B=400
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=399982
+mem_heap_B=4074
+mem_heap_extra_B=22
+mem_stacks_B=0
+heap_tree=empty

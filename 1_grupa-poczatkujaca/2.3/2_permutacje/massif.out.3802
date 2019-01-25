@@ -1,0 +1,1860 @@
+desc: (none)
+cmd: xterm
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=2956624
+mem_heap_B=10
+mem_heap_extra_B=14
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=3882287
+mem_heap_B=132439
+mem_heap_extra_B=4945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=5236672
+mem_heap_B=132439
+mem_heap_extra_B=4945
+mem_stacks_B=0
+heap_tree=detailed
+n14: 132439 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 28224 0x51E7F04: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 28224 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 28224 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 28224 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 28224 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 28224 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 28224 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 21152 0x668C58F: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21152 0x66906E0: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21152 0x51F6CD0: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 21152 0x51E7890: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 21152 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 21152 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 21152 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 21152 0x15F885: ??? (in /usr/bin/xterm)
+         n1: 21152 0x12B2D3: ??? (in /usr/bin/xterm)
+          n0: 21152 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 16384 0x51E7B94: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 16384 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 16384 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 16384 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 16384 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 16384 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 16384 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 14135 0x51E8348: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 14135 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 14135 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 14135 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 14135 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 14135 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 14135 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 12308 0x668C76F: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 12308 0x66906E0: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 12308 0x51F6CD0: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 12308 0x51E7890: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 12308 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 12308 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 12308 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 12308 0x15F885: ??? (in /usr/bin/xterm)
+         n1: 12308 0x12B2D3: ??? (in /usr/bin/xterm)
+          n0: 12308 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 8176 0x51ED214: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 8176 0x51ED43A: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 8176 0x51FEF9E: XrmInitialize (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 8176 0x4F761A3: XtToolkitInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 8176 0x4F77257: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 8176 0x15F885: ??? (in /usr/bin/xterm)
+       n1: 8176 0x12B2D3: ??? (in /usr/bin/xterm)
+        n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 5877 in 46 places, all below massif's threshold (1.00%)
+ n1: 4680 0x51E785C: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 4680 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 4680 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 4680 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4680 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 4680 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 4680 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 4096 0x51ED45A: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 4096 0x51FEF9E: XrmInitialize (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 4096 0x4F761A3: XtToolkitInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 4096 0x4F77257: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4096 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 4096 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 4096 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 4096 0x5BD4C9A: _IO_file_doallocate (filedoalloc.c:101)
+  n2: 4096 0x5BE3EC0: _IO_doallocbuf (genops.c:347)
+   n1: 4096 0x5BE2D52: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:493)
+    n1: 4096 0x5BE3F90: _IO_default_uflow (genops.c:362)
+     n1: 4096 0x5BD6638: _IO_getline_info (iogetline.c:60)
+      n1: 4096 0x5BD55E9: fgets (iofgets.c:53)
+       n1: 4096 0x520910E: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 4096 0x5209715: _XlcResolveLocaleName (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+         n1: 4096 0x520CE86: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+          n1: 4096 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+           n1: 4096 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+            n1: 4096 0x522D5FE: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+             n1: 4096 0x521411C: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+              n1: 4096 0x5214349: _XrmInitParseInfo (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+               n1: 4096 0x51FB43E: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+                n1: 4096 0x51FF79C: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+                 n1: 4096 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                  n1: 4096 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                   n1: 4096 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                    n1: 4096 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                     n1: 4096 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                      n1: 4096 0x15F885: ??? (in /usr/bin/xterm)
+                       n1: 4096 0x12B2D3: ??? (in /usr/bin/xterm)
+                        n0: 4096 0x5B7A099: (below main) (libc-start.c:308)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n2: 4000 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 2144 in 11 places, all below massif's threshold (1.00%)
+  n1: 1856 0x4F65456: _XtTableAddConverter (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n0: 1856 in 38 places, all below massif's threshold (1.00%)
+ n1: 3600 0x5206E71: _XlcCreateDefaultCharSet (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 3600 0x5206A99: _XlcAddCT (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 3600 0x5206B3A: _XlcInitCTInfo (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 3600 0x520CD71: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 3600 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 3600 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 3600 0x522D5FE: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 3600 0x521411C: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+         n1: 3600 0x5214349: _XrmInitParseInfo (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+          n1: 3600 0x51FB43E: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+           n1: 3600 0x51FF79C: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+            n1: 3600 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 3600 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 3600 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 3600 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 3600 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 3600 0x15F885: ??? (in /usr/bin/xterm)
+                  n1: 3600 0x12B2D3: ??? (in /usr/bin/xterm)
+                   n0: 3600 0x5B7A099: (below main) (libc-start.c:308)
+ n2: 3080 0x4F62A5F: XtCalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n1: 2048 0x4F65554: _XtSetDefaultConverterTable (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 2048 0x4F6D98F: XtCreateApplicationContext (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 2048 0x4F6DB8A: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 2048 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 2048 0x15F885: ??? (in /usr/bin/xterm)
+       n1: 2048 0x12B2D3: ??? (in /usr/bin/xterm)
+        n0: 2048 0x5B7A099: (below main) (libc-start.c:308)
+  n0: 1032 in 2 places, all below massif's threshold (1.00%)
+ n1: 2631 0x520682A: _XlcAddCT (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 2631 0x5206B3A: _XlcInitCTInfo (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 2631 0x520CD71: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 2631 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 2631 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 2631 0x522D5FE: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 2631 0x521411C: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 2631 0x5214349: _XrmInitParseInfo (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+         n1: 2631 0x51FB43E: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+          n1: 2631 0x51FF79C: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+           n1: 2631 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 2631 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 2631 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 2631 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 2631 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 2631 0x15F885: ??? (in /usr/bin/xterm)
+                 n1: 2631 0x12B2D3: ??? (in /usr/bin/xterm)
+                  n0: 2631 0x5B7A099: (below main) (libc-start.c:308)
+#-----------
+snapshot=4
+#-----------
+time=5732040
+mem_heap_B=134487
+mem_heap_extra_B=4953
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=7080408
+mem_heap_B=130391
+mem_heap_extra_B=4945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=8120195
+mem_heap_B=158346
+mem_heap_extra_B=18782
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=9469338
+mem_heap_B=158346
+mem_heap_extra_B=18782
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=10633534
+mem_heap_B=162466
+mem_heap_extra_B=18814
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=12135334
+mem_heap_B=186196
+mem_heap_extra_B=26212
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=13162590
+mem_heap_B=218904
+mem_heap_extra_B=32840
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=13888071
+mem_heap_B=292424
+mem_heap_extra_B=36904
+mem_stacks_B=0
+heap_tree=detailed
+n19: 292424 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 53165 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n2: 26880 0x4F6B5AF: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n2: 26768 0x4F6B66D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n2: 25936 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 25768 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 25768 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 25768 0x12BA84: ??? (in /usr/bin/xterm)
+        n0: 25768 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 168 in 1 place, below massif's threshold (1.00%)
+    n0: 832 in 1 place, below massif's threshold (1.00%)
+   n0: 112 in 1 place, below massif's threshold (1.00%)
+  n0: 15597 in 68 places, all below massif's threshold (1.00%)
+  n1: 5880 0x4F823C5: _XtDependencies (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n2: 5880 0x4F7DFAA: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n2: 5872 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 5704 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n2: 5704 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n2: 5560 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 3432 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n0: 3432 in 2 places, all below massif's threshold (1.00%)
+        n0: 2128 in 1 place, below massif's threshold (1.00%)
+       n0: 144 in 1 place, below massif's threshold (1.00%)
+     n0: 168 in 1 place, below massif's threshold (1.00%)
+    n0: 8 in 1 place, below massif's threshold (1.00%)
+  n1: 4808 0x4F65456: _XtTableAddConverter (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n0: 4808 in 42 places, all below massif's threshold (1.00%)
+ n0: 36151 in 126 places, all below massif's threshold (1.00%)
+ n3: 32704 0x51ED214: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 16352 0x51ED6AD: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 8176 0x4F8DEB9: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 8176 0x4F8E421: _XtInitializeActionData (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 8176 0x4F6AA5E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 8176 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 8176 0x4F6B266: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 8176 0x4F6BC2E: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 8176 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 8176 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 8176 0x12BA84: ??? (in /usr/bin/xterm)
+            n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+   n1: 8176 0x51FE558: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 8176 0x51FF8CC: XrmCombineFileDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 8176 0x4F766FA: XtScreenDatabase (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 8176 0x4F76D97: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 8176 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 8176 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 8176 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 8176 0x15F885: ??? (in /usr/bin/xterm)
+           n1: 8176 0x12B2D3: ??? (in /usr/bin/xterm)
+            n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+  n1: 8176 0x51ED43A: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 8176 0x51FEF9E: XrmInitialize (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 8176 0x4F761A3: XtToolkitInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 8176 0x4F77257: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 8176 0x15F885: ??? (in /usr/bin/xterm)
+       n1: 8176 0x12B2D3: ??? (in /usr/bin/xterm)
+        n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+  n1: 8176 0x51ED73B: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 8176 0x5208E12: _XlcCreateLocaleDataBase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 8176 0x520CEBE: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 8176 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 8176 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 8176 0x522D5FE: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 8176 0x521411C: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+         n1: 8176 0x5214266: _XlcCurrentLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+          n1: 8176 0x5214327: XSupportsLocale (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+           n1: 8176 0x4F759E6: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 8176 0x4F76CED: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 8176 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 8176 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 8176 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 8176 0x15F885: ??? (in /usr/bin/xterm)
+                 n1: 8176 0x12B2D3: ??? (in /usr/bin/xterm)
+                  n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 28224 0x51E7F04: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 28224 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 28224 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 28224 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 28224 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 28224 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 28224 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 21152 0x668C58F: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21152 0x66906E0: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21152 0x51F6CD0: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 21152 0x51E7890: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 21152 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 21152 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 21152 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 21152 0x15F885: ??? (in /usr/bin/xterm)
+         n1: 21152 0x12B2D3: ??? (in /usr/bin/xterm)
+          n0: 21152 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 16384 0x51E7B94: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 16384 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 16384 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 16384 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 16384 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 16384 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 16384 0x5B7A099: (below main) (libc-start.c:308)
+ n2: 16384 0x51ED45A: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 16384 0x4F82304: _XtCompileResourceList (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 16384 0x4F7DEA2: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 16384 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 16384 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 16384 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 16384 0x4F6B266: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 16384 0x4F6B586: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 16384 0x4F6B66D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 16384 0x4F6C208: _XtAppCreateShell (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                  n1: 16384 0x4F6C366: XtAppCreateShell (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                   n1: 16384 0x4F7732E: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                    n1: 16384 0x15F885: ??? (in /usr/bin/xterm)
+                     n1: 16384 0x12B2D3: ??? (in /usr/bin/xterm)
+                      n0: 16384 0x5B7A099: (below main) (libc-start.c:308)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 14135 0x51E8348: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 14135 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 14135 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 14135 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 14135 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 14135 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 14135 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 13745 0x51FDEAE: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 13745 0x51FED14: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 9478 0x51FF7C9: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 9478 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 9478 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 9478 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 9478 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 9478 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 9478 0x15F885: ??? (in /usr/bin/xterm)
+          n1: 9478 0x12B2D3: ??? (in /usr/bin/xterm)
+           n0: 9478 0x5B7A099: (below main) (libc-start.c:308)
+   n1: 4267 0x51FF8CC: XrmCombineFileDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 4267 0x4F766FA: XtScreenDatabase (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4267 0x4F76D97: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 4267 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 4267 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 4267 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 4267 0x15F885: ??? (in /usr/bin/xterm)
+          n1: 4267 0x12B2D3: ??? (in /usr/bin/xterm)
+           n0: 4267 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 12308 0x668C76F: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 12308 0x66906E0: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 12308 0x51F6CD0: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 12308 0x51E7890: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 12308 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 12308 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 12308 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 12308 0x15F885: ??? (in /usr/bin/xterm)
+         n1: 12308 0x12B2D3: ??? (in /usr/bin/xterm)
+          n0: 12308 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 9448 0x5FFB039: XRenderQueryFormats (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+  n1: 9448 0x5FFB4BD: XRenderQueryVersion (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+   n1: 9448 0x7EA7CA5: _XcursorGetDisplayInfo (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+    n1: 9448 0x7EA7F27: XcursorSupportsARGB (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+     n1: 9448 0x7EAA601: XcursorTryShapeCursor (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+      n1: 9448 0x51D6771: XCreateGlyphCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 9448 0x51D6BD6: XCreateFontCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 9448 0x4D46A4A: XmuCvtStringToCursor (in /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0)
+         n1: 9448 0x4F65BE7: XtDirectConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 9448 0x4F66217: _XtConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 9448 0x4F81834: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 9448 0x4F8271A: _XtGetResources (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 9448 0x4F6B713: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 9448 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 9448 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 9448 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 9448 0x12BA84: ??? (in /usr/bin/xterm)
+                  n0: 9448 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 6936 0x51FE086: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 6936 0x51FED14: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 4368 0x51FF7C9: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 4368 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4368 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 4368 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 4368 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 4368 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 4368 0x15F885: ??? (in /usr/bin/xterm)
+          n1: 4368 0x12B2D3: ??? (in /usr/bin/xterm)
+           n0: 4368 0x5B7A099: (below main) (libc-start.c:308)
+   n0: 2568 in 1 place, below massif's threshold (1.00%)
+ n1: 5128 0x4F62A5F: XtCalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 5128 in 5 places, all below massif's threshold (1.00%)
+ n1: 4948 0x668ECFC: ??? (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 4948 0x668CBD3: ??? (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n2: 4948 0x668E25D: ??? (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+    n1: 4916 0x668E3CF: xcb_wait_for_reply64 (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+     n2: 4916 0x51F7E36: _XReply (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 4916 0x5FFAEDD: XRenderQueryFormats (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+       n1: 4916 0x5FFB4BD: XRenderQueryVersion (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+        n1: 4916 0x7EA7CA5: _XcursorGetDisplayInfo (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+         n1: 4916 0x7EA7F27: XcursorSupportsARGB (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+          n1: 4916 0x7EAA601: XcursorTryShapeCursor (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+           n1: 4916 0x51D6771: XCreateGlyphCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+            n1: 4916 0x51D6BD6: XCreateFontCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+             n1: 4916 0x4D46A4A: XmuCvtStringToCursor (in /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0)
+              n1: 4916 0x4F65BE7: XtDirectConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 4916 0x4F66217: _XtConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 4916 0x4F81834: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 4916 0x4F8271A: _XtGetResources (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                  n1: 4916 0x4F6B713: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                   n1: 4916 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                    n1: 4916 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                     n1: 4916 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                      n1: 4916 0x12BA84: ??? (in /usr/bin/xterm)
+                       n0: 4916 0x5B7A099: (below main) (libc-start.c:308)
+      n0: 0 in 6 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+ n1: 4884 0x5FFB085: XRenderQueryFormats (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+  n1: 4884 0x5FFB4BD: XRenderQueryVersion (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+   n1: 4884 0x7EA7CA5: _XcursorGetDisplayInfo (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+    n1: 4884 0x7EA7F27: XcursorSupportsARGB (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+     n1: 4884 0x7EAA601: XcursorTryShapeCursor (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+      n1: 4884 0x51D6771: XCreateGlyphCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 4884 0x51D6BD6: XCreateFontCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 4884 0x4D46A4A: XmuCvtStringToCursor (in /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0)
+         n1: 4884 0x4F65BE7: XtDirectConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 4884 0x4F66217: _XtConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 4884 0x4F81834: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 4884 0x4F8271A: _XtGetResources (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 4884 0x4F6B713: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 4884 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 4884 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 4884 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 4884 0x12BA84: ??? (in /usr/bin/xterm)
+                  n0: 4884 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 4680 0x51E785C: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 4680 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 4680 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 4680 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4680 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 4680 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 4680 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 4360 0x52086D0: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 4360 0x5208A0B: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 4360 0x5208D20: _XlcCreateLocaleDataBase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 4360 0x520CEBE: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 4360 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n2: 4360 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 3640 0x522D5FE: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n2: 3640 0x521411C: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+         n1: 3640 0x5214266: _XlcCurrentLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+          n1: 3640 0x5214327: XSupportsLocale (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+           n1: 3640 0x4F759E6: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 3640 0x4F76CED: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 3640 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 3640 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 3640 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 3640 0x15F885: ??? (in /usr/bin/xterm)
+                 n1: 3640 0x12B2D3: ??? (in /usr/bin/xterm)
+                  n0: 3640 0x5B7A099: (below main) (libc-start.c:308)
+         n0: 0 in 1 place, below massif's threshold (1.00%)
+       n0: 720 in 1 place, below massif's threshold (1.00%)
+ n2: 3960 0x5206E71: _XlcCreateDefaultCharSet (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 3600 0x5206A99: _XlcAddCT (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 3600 0x5206B3A: _XlcInitCTInfo (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 3600 0x520CD71: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 3600 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 3600 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 3600 0x522D5FE: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 3600 0x521411C: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+         n1: 3600 0x5214349: _XrmInitParseInfo (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+          n1: 3600 0x51FB43E: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+           n1: 3600 0x51FF79C: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+            n1: 3600 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 3600 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 3600 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 3600 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 3600 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 3600 0x15F885: ??? (in /usr/bin/xterm)
+                  n1: 3600 0x12B2D3: ??? (in /usr/bin/xterm)
+                   n0: 3600 0x5B7A099: (below main) (libc-start.c:308)
+  n0: 360 in 1 place, below massif's threshold (1.00%)
+ n1: 3728 0x5B86067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x5B868C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x5B85A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x5B85162: setlocale (setlocale.c:340)
+     n1: 3728 0x4F759DC: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 3728 0x4F76CED: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 3728 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 3728 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 3728 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 3728 0x15F885: ??? (in /usr/bin/xterm)
+           n1: 3728 0x12B2D3: ??? (in /usr/bin/xterm)
+            n0: 3728 0x5B7A099: (below main) (libc-start.c:308)
+#-----------
+snapshot=12
+#-----------
+time=15203829
+mem_heap_B=322260
+mem_heap_extra_B=44164
+mem_stacks_B=0
+heap_tree=detailed
+n19: 322260 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n5: 78933 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n2: 26880 0x4F6B5AF: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n2: 26768 0x4F6B66D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n2: 25936 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 25768 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 25768 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 25768 0x12BA84: ??? (in /usr/bin/xterm)
+        n0: 25768 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 168 in 1 place, below massif's threshold (1.00%)
+    n0: 832 in 1 place, below massif's threshold (1.00%)
+   n0: 112 in 1 place, below massif's threshold (1.00%)
+  n2: 25768 0x4F6B8D6: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 25768 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 25768 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 25768 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 25768 0x12BA84: ??? (in /usr/bin/xterm)
+       n0: 25768 0x5B7A099: (below main) (libc-start.c:308)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+  n0: 15597 in 67 places, all below massif's threshold (1.00%)
+  n1: 5880 0x4F823C5: _XtDependencies (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n2: 5880 0x4F7DFAA: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n2: 5872 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 5704 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n2: 5704 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 5560 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n0: 5560 in 2 places, all below massif's threshold (1.00%)
+       n0: 144 in 1 place, below massif's threshold (1.00%)
+     n0: 168 in 1 place, below massif's threshold (1.00%)
+    n0: 8 in 1 place, below massif's threshold (1.00%)
+  n1: 4808 0x4F65456: _XtTableAddConverter (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n0: 4808 in 42 places, all below massif's threshold (1.00%)
+ n0: 40850 in 143 places, all below massif's threshold (1.00%)
+ n3: 32704 0x51ED214: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 16352 0x51ED6AD: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 8176 0x4F8DEB9: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 8176 0x4F8E421: _XtInitializeActionData (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 8176 0x4F6AA5E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 8176 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 8176 0x4F6B266: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 8176 0x4F6BC2E: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 8176 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 8176 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 8176 0x12BA84: ??? (in /usr/bin/xterm)
+            n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+   n1: 8176 0x51FE558: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 8176 0x51FF8CC: XrmCombineFileDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 8176 0x4F766FA: XtScreenDatabase (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 8176 0x4F76D97: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 8176 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 8176 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 8176 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 8176 0x15F885: ??? (in /usr/bin/xterm)
+           n1: 8176 0x12B2D3: ??? (in /usr/bin/xterm)
+            n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+  n1: 8176 0x51ED43A: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 8176 0x51FEF9E: XrmInitialize (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 8176 0x4F761A3: XtToolkitInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 8176 0x4F77257: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 8176 0x15F885: ??? (in /usr/bin/xterm)
+       n1: 8176 0x12B2D3: ??? (in /usr/bin/xterm)
+        n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+  n1: 8176 0x51ED73B: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 8176 0x5208E12: _XlcCreateLocaleDataBase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 8176 0x520CEBE: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 8176 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 8176 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 8176 0x522D5FE: _XlcUtf8Loader (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 8176 0x521411C: _XOpenLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+         n1: 8176 0x5214266: _XlcCurrentLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+          n1: 8176 0x5214327: XSupportsLocale (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+           n1: 8176 0x4F759E6: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 8176 0x4F76CED: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 8176 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 8176 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 8176 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 8176 0x15F885: ??? (in /usr/bin/xterm)
+                 n1: 8176 0x12B2D3: ??? (in /usr/bin/xterm)
+                  n0: 8176 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 28224 0x51E7F04: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 28224 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 28224 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 28224 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 28224 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 28224 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 28224 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 21152 0x668C58F: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 21152 0x66906E0: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 21152 0x51F6CD0: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 21152 0x51E7890: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 21152 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 21152 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 21152 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 21152 0x15F885: ??? (in /usr/bin/xterm)
+         n1: 21152 0x12B2D3: ??? (in /usr/bin/xterm)
+          n0: 21152 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 16384 0x51E7B94: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 16384 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 16384 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 16384 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 16384 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 16384 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 16384 0x5B7A099: (below main) (libc-start.c:308)
+ n2: 16384 0x51ED45A: _XrmInternalStringToQuark (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 16384 0x4F82304: _XtCompileResourceList (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 16384 0x4F7DEA2: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 16384 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 16384 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 16384 0x4F6B02B: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 16384 0x4F6B266: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 16384 0x4F6B2BB: XtInitializeWidgetClass (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 16384 0x4F6B586: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 16384 0x4F6B66D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 16384 0x4F6C208: _XtAppCreateShell (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                  n1: 16384 0x4F6C366: XtAppCreateShell (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                   n1: 16384 0x4F7732E: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                    n1: 16384 0x15F885: ??? (in /usr/bin/xterm)
+                     n1: 16384 0x12B2D3: ??? (in /usr/bin/xterm)
+                      n0: 16384 0x5B7A099: (below main) (libc-start.c:308)
+  n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 14135 0x51E8348: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 14135 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 14135 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 14135 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 14135 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 14135 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 14135 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 13745 0x51FDEAE: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 13745 0x51FED14: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 9478 0x51FF7C9: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 9478 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 9478 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 9478 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 9478 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 9478 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 9478 0x15F885: ??? (in /usr/bin/xterm)
+          n1: 9478 0x12B2D3: ??? (in /usr/bin/xterm)
+           n0: 9478 0x5B7A099: (below main) (libc-start.c:308)
+   n1: 4267 0x51FF8CC: XrmCombineFileDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 4267 0x4F766FA: XtScreenDatabase (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4267 0x4F76D97: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 4267 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 4267 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 4267 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 4267 0x15F885: ??? (in /usr/bin/xterm)
+          n1: 4267 0x12B2D3: ??? (in /usr/bin/xterm)
+           n0: 4267 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 12308 0x668C76F: xcb_connect_to_fd (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n1: 12308 0x66906E0: xcb_connect_to_display_with_auth_info (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n1: 12308 0x51F6CD0: _XConnectXCB (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 12308 0x51E7890: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 12308 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 12308 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 12308 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 12308 0x15F885: ??? (in /usr/bin/xterm)
+         n1: 12308 0x12B2D3: ??? (in /usr/bin/xterm)
+          n0: 12308 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 9448 0x5FFB039: XRenderQueryFormats (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+  n1: 9448 0x5FFB4BD: XRenderQueryVersion (in /usr/lib/x86_64-linux-gnu/libXrender.so.1.3.0)
+   n1: 9448 0x7EA7CA5: _XcursorGetDisplayInfo (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+    n1: 9448 0x7EA7F27: XcursorSupportsARGB (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+     n1: 9448 0x7EAA601: XcursorTryShapeCursor (in /usr/lib/x86_64-linux-gnu/libXcursor.so.1.0.2)
+      n1: 9448 0x51D6771: XCreateGlyphCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n1: 9448 0x51D6BD6: XCreateFontCursor (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n1: 9448 0x4D46A4A: XmuCvtStringToCursor (in /usr/lib/x86_64-linux-gnu/libXmu.so.6.2.0)
+         n1: 9448 0x4F65BE7: XtDirectConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 9448 0x4F66217: _XtConvert (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 9448 0x4F81834: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 9448 0x4F8271A: _XtGetResources (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 9448 0x4F6B713: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 9448 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 9448 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                n1: 9448 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+                 n1: 9448 0x12BA84: ??? (in /usr/bin/xterm)
+                  n0: 9448 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 6936 0x51FE086: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 6936 0x51FED14: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 4368 0x51FF7C9: XrmGetStringDatabase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 4368 0x4F75C64: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4368 0x4F7715F: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 4368 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 4368 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 4368 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 4368 0x15F885: ??? (in /usr/bin/xterm)
+          n1: 4368 0x12B2D3: ??? (in /usr/bin/xterm)
+           n0: 4368 0x5B7A099: (below main) (libc-start.c:308)
+   n0: 2568 in 1 place, below massif's threshold (1.00%)
+ n1: 5128 0x4F62A5F: XtCalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 5128 in 5 places, all below massif's threshold (1.00%)
+ n2: 5105 0x171A1D: ??? (in /usr/bin/xterm)
+  n2: 4915 0x171F64: ??? (in /usr/bin/xterm)
+   n1: 4080 0x139F9A: ??? (in /usr/bin/xterm)
+    n1: 4080 0x4F6ADFA: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4080 0x4F6B908: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 4080 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 4080 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 4080 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 4080 0x12BA84: ??? (in /usr/bin/xterm)
+          n0: 4080 0x5B7A099: (below main) (libc-start.c:308)
+   n0: 835 in 20 places, all below massif's threshold (1.00%)
+  n0: 190 in 22 places, all below massif's threshold (1.00%)
+ n1: 4680 0x51E785C: XOpenDisplay (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 4680 0x4F6D565: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+   n1: 4680 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+    n1: 4680 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+     n1: 4680 0x15F885: ??? (in /usr/bin/xterm)
+      n1: 4680 0x12B2D3: ??? (in /usr/bin/xterm)
+       n0: 4680 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 4360 0x52086D0: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 4360 0x5208A0B: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 4360 0x5208D20: _XlcCreateLocaleDataBase (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 4360 0x520CEBE: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+     n1: 4360 0x520C441: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 4360 0x520CC66: _XlcCreateLC (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n0: 4360 in 2 places, all below massif's threshold (1.00%)
+ n1: 4096 0x1581E5: ??? (in /usr/bin/xterm)
+  n1: 4096 0x15A0BD: ??? (in /usr/bin/xterm)
+   n1: 4096 0x15A459: ??? (in /usr/bin/xterm)
+    n1: 4096 0x15C4BC: ??? (in /usr/bin/xterm)
+     n1: 4096 0x136651: ??? (in /usr/bin/xterm)
+      n1: 4096 0x1381A9: ??? (in /usr/bin/xterm)
+       n1: 4096 0x4F6ADFA: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 4096 0x4F6B908: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 4096 0x4F6BBE6: _XtCreateWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 4096 0x4F9AF1E: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+           n1: 4096 0x4F9B351: XtVaCreateManagedWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+            n1: 4096 0x12BA84: ??? (in /usr/bin/xterm)
+             n0: 4096 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 3960 0x5206E71: _XlcCreateDefaultCharSet (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n0: 3960 in 2 places, all below massif's threshold (1.00%)
+ n1: 3728 0x5B86067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x5B868C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x5B85A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x5B85162: setlocale (setlocale.c:340)
+     n1: 3728 0x4F759DC: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+      n1: 3728 0x4F76CED: _XtDisplayInitialize (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 3728 0x4F6D5BF: XtOpenDisplay (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 3728 0x4F6DBD1: _XtAppInit (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 3728 0x4F7727A: XtOpenApplication (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 3728 0x15F885: ??? (in /usr/bin/xterm)
+           n1: 3728 0x12B2D3: ??? (in /usr/bin/xterm)
+            n0: 3728 0x5B7A099: (below main) (libc-start.c:308)
+#-----------
+snapshot=13
+#-----------
+time=35158517
+mem_heap_B=322329
+mem_heap_extra_B=44231
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=36254813
+mem_heap_B=4253203
+mem_heap_extra_B=46077
+mem_stacks_B=0
+heap_tree=peak
+n4: 4253203 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 3154944 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 3154944 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 3151872 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 1572864 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x144718: ??? (in /usr/bin/xterm)
+      n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+    n2: 789504 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 3072 in 1 place, below massif's threshold (1.00%)
+    n2: 789504 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 3072 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 786708 0x668ECFC: ??? (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+  n2: 786708 0x668CBD3: ??? (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+   n2: 786708 0x668E25D: ??? (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+    n1: 786676 0x668E3CF: xcb_wait_for_reply64 (in /usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0)
+     n2: 786676 0x51F7E36: _XReply (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+      n1: 786676 0x51D97AA: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+       n2: 786676 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+        n2: 786676 0x14A330: ??? (in /usr/bin/xterm)
+         n2: 786676 0x14CBA3: ??? (in /usr/bin/xterm)
+          n1: 786676 0x14DC5E: ??? (in /usr/bin/xterm)
+           n1: 786676 0x144FA5: ??? (in /usr/bin/xterm)
+            n1: 786676 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+             n1: 786676 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+              n1: 786676 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+               n1: 786676 0x137F53: ??? (in /usr/bin/xterm)
+                n1: 786676 0x15320E: ??? (in /usr/bin/xterm)
+                 n1: 786676 0x12BBA7: ??? (in /usr/bin/xterm)
+                  n0: 786676 0x5B7A099: (below main) (libc-start.c:308)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 0 in 3 places, all below massif's threshold (1.00%)
+        n0: 0 in 1 place, below massif's threshold (1.00%)
+      n0: 0 in 10 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 255366 in 172 places, all below massif's threshold (1.00%)
+ n1: 56185 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 56185 in 75 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=37789279
+mem_heap_B=3286505
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=38759561
+mem_heap_B=3292649
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=39875190
+mem_heap_B=3305449
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=40935128
+mem_heap_B=3320809
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=42345426
+mem_heap_B=3346153
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=43737335
+mem_heap_B=3349609
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=44777895
+mem_heap_B=3353065
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=45477665
+mem_heap_B=3384169
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=46401943
+mem_heap_B=3389353
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=detailed
+n5: 3389353 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2362368 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 2362368 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 2359296 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 786432 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 573433 0x5221323: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 573433 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 573433 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 573433 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 573433 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 573433 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 573433 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 573433 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 573433 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 573433 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 573433 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 573433 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 304031 in 196 places, all below massif's threshold (1.00%)
+ n1: 93312 0x5221D57: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 93312 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 93312 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 93312 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 93312 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 93312 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 93312 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 93312 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 93312 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 93312 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 93312 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 93312 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 56209 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 56209 in 79 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=47326736
+mem_heap_B=3389353
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=48484198
+mem_heap_B=3389353
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=49412928
+mem_heap_B=3441193
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=51019975
+mem_heap_B=3448969
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=detailed
+n5: 3448969 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2362368 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 2362368 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 2359296 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 786432 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 573433 0x5221323: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 573433 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 573433 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 573433 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 573433 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 573433 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 573433 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 573433 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 573433 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 573433 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 573433 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 573433 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 316991 in 196 places, all below massif's threshold (1.00%)
+ n1: 139968 0x5221D57: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 139968 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 139968 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 139968 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 139968 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 139968 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 139968 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 139968 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 139968 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 139968 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 139968 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 139968 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 56209 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 56209 in 79 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=28
+#-----------
+time=51947515
+mem_heap_B=3448969
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=52643421
+mem_heap_B=3448969
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=54029528
+mem_heap_B=3448969
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=55410030
+mem_heap_B=3456745
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=56327684
+mem_heap_B=3526729
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=57723451
+mem_heap_B=3526729
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=58430813
+mem_heap_B=3526729
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=detailed
+n5: 3526729 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2362368 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 2362368 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 2359296 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 786432 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 573433 0x5221323: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 573433 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 573433 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 573433 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 573433 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 573433 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 573433 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 573433 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 573433 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 573433 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 573433 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 573433 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 324767 in 196 places, all below massif's threshold (1.00%)
+ n1: 209952 0x5221D57: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 209952 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 209952 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 209952 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 209952 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 209952 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 209952 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 209952 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 209952 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 209952 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 209952 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 209952 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 56209 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 56209 in 79 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=59483716
+mem_heap_B=3538393
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=60540821
+mem_heap_B=3538393
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=61946643
+mem_heap_B=3538393
+mem_heap_extra_B=46351
+mem_stacks_B=0
+heap_tree=detailed
+n5: 3538393 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2362368 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 2362368 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 2359296 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 786432 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 573433 0x5221323: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 573433 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 573433 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 573433 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 573433 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 573433 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 573433 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 573433 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 573433 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 573433 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 573433 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 573433 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 336431 in 196 places, all below massif's threshold (1.00%)
+ n1: 209952 0x5221D57: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 209952 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 209952 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 209952 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 209952 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 209952 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 209952 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 209952 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 209952 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 209952 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 209952 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 209952 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 56209 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 56209 in 79 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=63009220
+mem_heap_B=3550057
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=63723598
+mem_heap_B=3550057
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=65122093
+mem_heap_B=3550057
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=65831700
+mem_heap_B=3550057
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=67242990
+mem_heap_B=3550057
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=68652544
+mem_heap_B=3655017
+mem_heap_extra_B=46343
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=69368345
+mem_heap_B=3655033
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=70430790
+mem_heap_B=3655033
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=71137970
+mem_heap_B=3655033
+mem_heap_extra_B=46367
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=72190069
+mem_heap_B=3672529
+mem_heap_extra_B=46375
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=73599514
+mem_heap_B=3672529
+mem_heap_extra_B=46375
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=74664690
+mem_heap_B=3672529
+mem_heap_extra_B=46375
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=75160714
+mem_heap_B=3672529
+mem_heap_extra_B=46375
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=75656122
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=76155957
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=76657651
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3690025 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2362368 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 2362368 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 2359296 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 786432 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 573433 0x5221323: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 573433 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 573433 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 573433 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 573433 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 573433 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 573433 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 573433 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 573433 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 573433 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 573433 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 573433 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 330599 in 195 places, all below massif's threshold (1.00%)
+ n1: 314928 0x5221D57: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 314928 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 314928 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 314928 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 314928 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 314928 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 314928 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 314928 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 314928 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 314928 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 314928 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 314928 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 56209 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 56209 in 79 places, all below massif's threshold (1.00%)
+ n1: 52488 0x52218EA: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 52488 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 52488 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 52488 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 52488 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 52488 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 52488 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 52488 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 52488 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 52488 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 52488 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 52488 0x5B7A099: (below main) (libc-start.c:308)
+#-----------
+snapshot=54
+#-----------
+time=77159466
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=77655169
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=78152682
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=78648436
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=79146746
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=79645940
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=80142683
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=80639102
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=81138763
+mem_heap_B=3690025
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=81639523
+mem_heap_B=3847465
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3847465 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2362368 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 2362368 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 2359296 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 786432 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 573433 0x5221323: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 573433 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 573433 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 573433 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 573433 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 573433 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 573433 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 573433 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 573433 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 573433 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 573433 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 573433 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 472368 0x5221D57: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 472368 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 472368 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 472368 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 472368 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 472368 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 472368 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 472368 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 472368 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 472368 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 472368 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 472368 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 330599 in 195 places, all below massif's threshold (1.00%)
+ n1: 56209 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 56209 in 79 places, all below massif's threshold (1.00%)
+ n1: 52488 0x52218EA: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 52488 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 52488 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 52488 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 52488 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 52488 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 52488 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 52488 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 52488 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 52488 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 52488 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 52488 0x5B7A099: (below main) (libc-start.c:308)
+#-----------
+snapshot=64
+#-----------
+time=82141074
+mem_heap_B=3847465
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=82637926
+mem_heap_B=3847465
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=83136110
+mem_heap_B=3847465
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=83638734
+mem_heap_B=3847465
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=84135749
+mem_heap_B=3847465
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=84632647
+mem_heap_B=3847465
+mem_heap_extra_B=46383
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=85128552
+mem_heap_B=3307780
+mem_heap_extra_B=48436
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=85624228
+mem_heap_B=3316657
+mem_heap_extra_B=55287
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=86119746
+mem_heap_B=3297677
+mem_heap_extra_B=47547
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=86943292
+mem_heap_B=3433678
+mem_heap_extra_B=48626
+mem_stacks_B=0
+heap_tree=detailed
+n6: 3433678 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 2362368 0x51D99BD: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n2: 2362368 0x51DA5F5: XLoadQueryFont (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n3: 2359296 0x14A330: ??? (in /usr/bin/xterm)
+    n2: 786432 0x14BE8B: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14C391: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+    n2: 786432 0x14CBA3: ??? (in /usr/bin/xterm)
+     n1: 786432 0x14DC5E: ??? (in /usr/bin/xterm)
+      n1: 786432 0x144FA5: ??? (in /usr/bin/xterm)
+       n1: 786432 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 786432 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 786432 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+          n1: 786432 0x137F53: ??? (in /usr/bin/xterm)
+           n1: 786432 0x15320E: ??? (in /usr/bin/xterm)
+            n1: 786432 0x12BBA7: ??? (in /usr/bin/xterm)
+             n0: 786432 0x5B7A099: (below main) (libc-start.c:308)
+     n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 3072 in 1 place, below massif's threshold (1.00%)
+ n1: 472368 0x5221D57: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 472368 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 472368 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 472368 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 472368 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 472368 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 472368 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 472368 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 472368 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 472368 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 472368 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 472368 0x5B7A099: (below main) (libc-start.c:308)
+ n0: 401494 in 254 places, all below massif's threshold (1.00%)
+ n2: 94656 0x4F62804: XtMalloc (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+  n0: 57744 in 84 places, all below massif's threshold (1.00%)
+  n1: 36912 0x1618C7: ??? (in /usr/bin/xterm)
+   n1: 36912 0x12BDE0: ??? (in /usr/bin/xterm)
+    n0: 36912 0x5B7A099: (below main) (libc-start.c:308)
+ n1: 52488 0x52218EA: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+  n1: 52488 0x521FAB5: _XimLocalOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+   n1: 52488 0x521E106: _XimOpenIM (in /usr/lib/x86_64-linux-gnu/libX11.so.6.3.0)
+    n1: 52488 0x136DC5: ??? (in /usr/bin/xterm)
+     n1: 52488 0x144AC6: ??? (in /usr/bin/xterm)
+      n1: 52488 0x4F7831C: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+       n1: 52488 0x4F7845D: ??? (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+        n1: 52488 0x4F7874F: XtRealizeWidget (in /usr/lib/x86_64-linux-gnu/libXt.so.6.0.0)
+         n1: 52488 0x137F53: ??? (in /usr/bin/xterm)
+          n1: 52488 0x15320E: ??? (in /usr/bin/xterm)
+           n1: 52488 0x12BBA7: ??? (in /usr/bin/xterm)
+            n0: 52488 0x5B7A099: (below main) (libc-start.c:308)
+ n2: 50304 0x161F43: ??? (in /usr/bin/xterm)
+  n1: 49152 0x162E32: ??? (in /usr/bin/xterm)
+   n1: 49152 0x137F95: ??? (in /usr/bin/xterm)
+    n1: 49152 0x15320E: ??? (in /usr/bin/xterm)
+     n1: 49152 0x12BBA7: ??? (in /usr/bin/xterm)
+      n0: 49152 0x5B7A099: (below main) (libc-start.c:308)
+  n0: 1152 in 1 place, below massif's threshold (1.00%)
+#-----------
+snapshot=74
+#-----------
+time=87443647
+mem_heap_B=3436286
+mem_heap_extra_B=48642
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=87940270
+mem_heap_B=3460106
+mem_heap_extra_B=48870
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=88436731
+mem_heap_B=3475490
+mem_heap_extra_B=48886
+mem_stacks_B=0
+heap_tree=empty

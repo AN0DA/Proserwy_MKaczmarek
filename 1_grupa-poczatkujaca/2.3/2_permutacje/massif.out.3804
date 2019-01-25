@@ -1,0 +1,2805 @@
+desc: (none)
+cmd: /bin/bash
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=1174058
+mem_heap_B=51090
+mem_heap_extra_B=10438
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=2880408
+mem_heap_B=61418
+mem_heap_extra_B=13286
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=4013772
+mem_heap_B=62259
+mem_heap_extra_B=13789
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=5996425
+mem_heap_B=73110
+mem_heap_extra_B=15138
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=7115520
+mem_heap_B=140179
+mem_heap_extra_B=17093
+mem_stacks_B=0
+heap_tree=detailed
+n4: 140179 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n9: 126129 0x19007C: xmalloc (in /bin/bash)
+  n2: 76423 0x195ED7: ??? (in /bin/bash)
+   n1: 72567 0x196092: source_file (in /bin/bash)
+    n1: 72567 0x1A0637: source_builtin (in /bin/bash)
+     n1: 72567 0x14A223: ??? (in /bin/bash)
+      n1: 72567 0x14C68D: ??? (in /bin/bash)
+       n1: 72567 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 72567 0x14F270: execute_command (in /bin/bash)
+         n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+   n2: 3856 0x195FF5: maybe_execute_file (in /bin/bash)
+    n0: 3856 0x13605A: main (in /bin/bash)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n4: 16896 0x174A9A: hash_create (in /bin/bash)
+   n1: 8192 0x154939: ??? (in /bin/bash)
+    n1: 8192 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 8192 0x136E57: ??? (in /bin/bash)
+      n0: 8192 0x13571D: main (in /bin/bash)
+   n1: 4096 0x154900: ??? (in /bin/bash)
+    n1: 4096 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 4096 0x136E57: ??? (in /bin/bash)
+      n0: 4096 0x13571D: main (in /bin/bash)
+   n1: 4096 0x154958: ??? (in /bin/bash)
+    n1: 4096 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 4096 0x136E57: ??? (in /bin/bash)
+      n0: 4096 0x13571D: main (in /bin/bash)
+   n0: 512 in 1 place, below massif's threshold (1.00%)
+  n0: 11870 in 110 places, all below massif's threshold (1.00%)
+  n2: 5424 0x1515F1: ??? (in /bin/bash)
+   n2: 5376 0x15497D: ??? (in /bin/bash)
+    n2: 4848 0x1549F4: ??? (in /bin/bash)
+     n1: 3408 0x156E07: initialize_shell_variables (in /bin/bash)
+      n1: 3408 0x136E57: ??? (in /bin/bash)
+       n0: 3408 0x13571D: main (in /bin/bash)
+     n0: 1440 in 28 places, all below massif's threshold (1.00%)
+    n0: 528 in 2 places, all below massif's threshold (1.00%)
+   n0: 48 in 1 place, below massif's threshold (1.00%)
+  n2: 3904 0x174F33: hash_insert (in /bin/bash)
+   n2: 3584 0x1549B6: ??? (in /bin/bash)
+    n2: 3232 0x1549F4: ??? (in /bin/bash)
+     n1: 2272 0x156E07: initialize_shell_variables (in /bin/bash)
+      n1: 2272 0x136E57: ??? (in /bin/bash)
+       n0: 2272 0x13571D: main (in /bin/bash)
+     n0: 960 in 28 places, all below massif's threshold (1.00%)
+    n0: 352 in 2 places, all below massif's threshold (1.00%)
+   n0: 320 in 3 places, all below massif's threshold (1.00%)
+  n1: 3828 0x15226F: ??? (in /bin/bash)
+   n2: 3828 0x155EC6: ??? (in /bin/bash)
+    n1: 3828 0x16A0BB: command_substitute (in /bin/bash)
+     n1: 3828 0x16EEA5: ??? (in /bin/bash)
+      n1: 3828 0x17043B: ??? (in /bin/bash)
+       n1: 3828 0x171269: ??? (in /bin/bash)
+        n1: 3828 0x173C75: ??? (in /bin/bash)
+         n1: 3828 0x14B6AD: ??? (in /bin/bash)
+          n1: 3828 0x14DA68: execute_command_internal (in /bin/bash)
+           n1: 3828 0x14F270: execute_command (in /bin/bash)
+            n2: 3828 0x14F026: execute_command_internal (in /bin/bash)
+             n1: 3828 0x14F270: execute_command (in /bin/bash)
+              n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+               n1: 3828 0x14F270: execute_command (in /bin/bash)
+                n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+                 n1: 3828 0x14F270: execute_command (in /bin/bash)
+                  n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+                   n1: 3828 0x14F270: execute_command (in /bin/bash)
+                    n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+                     n1: 3828 0x14F270: execute_command (in /bin/bash)
+                      n1: 3828 0x14DE37: execute_command_internal (in /bin/bash)
+                       n1: 3828 0x196912: parse_and_execute (in /bin/bash)
+                        n1: 3828 0x195E74: ??? (in /bin/bash)
+                         n1: 3828 0x195FF5: maybe_execute_file (in /bin/bash)
+                          n0: 3828 0x13605A: main (in /bin/bash)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 3432 0x15390A: make_variable_value (in /bin/bash)
+   n2: 1777 0x154CFC: ??? (in /bin/bash)
+    n2: 1619 0x16B34C: ??? (in /bin/bash)
+     n1: 1572 0x174380: ??? (in /bin/bash)
+      n1: 1572 0x14B6AD: ??? (in /bin/bash)
+       n1: 1572 0x14DA68: execute_command_internal (in /bin/bash)
+        n0: 1572 in 2 places, all below massif's threshold (1.00%)
+     n0: 47 in 1 place, below massif's threshold (1.00%)
+    n0: 158 in 3 places, all below massif's threshold (1.00%)
+   n1: 1655 0x154A04: ??? (in /bin/bash)
+    n0: 1655 in 21 places, all below massif's threshold (1.00%)
+  n1: 2304 0x157082: initialize_shell_variables (in /bin/bash)
+   n1: 2304 0x136E57: ??? (in /bin/bash)
+    n0: 2304 0x13571D: main (in /bin/bash)
+  n1: 2048 0x174A56: hash_create (in /bin/bash)
+   n1: 2048 0x1553D9: make_new_assoc_variable (in /bin/bash)
+    n0: 2048 in 2 places, all below massif's threshold (1.00%)
+ n1: 5508 0x1900E1: xrealloc (in /bin/bash)
+  n0: 5508 in 9 places, all below massif's threshold (1.00%)
+ n0: 4814 in 26 places, all below massif's threshold (1.00%)
+ n1: 3728 0x4AC8067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x4AC88C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4AC7A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4AC7162: setlocale (setlocale.c:340)
+     n1: 3728 0x189A60: set_default_locale (in /bin/bash)
+      n0: 3728 0x134EA5: main (in /bin/bash)
+#-----------
+snapshot=6
+#-----------
+time=9410407
+mem_heap_B=153576
+mem_heap_extra_B=22608
+mem_stacks_B=0
+heap_tree=detailed
+n4: 153576 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 139527 0x19007C: xmalloc (in /bin/bash)
+  n2: 76423 0x195ED7: ??? (in /bin/bash)
+   n1: 72567 0x196092: source_file (in /bin/bash)
+    n1: 72567 0x1A0637: source_builtin (in /bin/bash)
+     n1: 72567 0x14A223: ??? (in /bin/bash)
+      n1: 72567 0x14C68D: ??? (in /bin/bash)
+       n1: 72567 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 72567 0x14F270: execute_command (in /bin/bash)
+         n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+   n2: 3856 0x195FF5: maybe_execute_file (in /bin/bash)
+    n0: 3856 0x13605A: main (in /bin/bash)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n5: 18944 0x174A9A: hash_create (in /bin/bash)
+   n1: 8192 0x154939: ??? (in /bin/bash)
+    n1: 8192 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 8192 0x136E57: ??? (in /bin/bash)
+      n0: 8192 0x13571D: main (in /bin/bash)
+   n1: 4096 0x154900: ??? (in /bin/bash)
+    n1: 4096 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 4096 0x136E57: ??? (in /bin/bash)
+      n0: 4096 0x13571D: main (in /bin/bash)
+   n1: 4096 0x154958: ??? (in /bin/bash)
+    n1: 4096 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 4096 0x136E57: ??? (in /bin/bash)
+      n0: 4096 0x13571D: main (in /bin/bash)
+   n1: 2048 0x18FFE8: progcomp_insert (in /bin/bash)
+    n1: 2048 0x1A7ECD: complete_builtin (in /bin/bash)
+     n1: 2048 0x14A223: ??? (in /bin/bash)
+      n1: 2048 0x14C68D: ??? (in /bin/bash)
+       n1: 2048 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 2048 0x196912: parse_and_execute (in /bin/bash)
+         n1: 2048 0x195E74: ??? (in /bin/bash)
+          n1: 2048 0x196092: source_file (in /bin/bash)
+           n1: 2048 0x1A0637: source_builtin (in /bin/bash)
+            n1: 2048 0x14A223: ??? (in /bin/bash)
+             n1: 2048 0x14C68D: ??? (in /bin/bash)
+              n1: 2048 0x14DA68: execute_command_internal (in /bin/bash)
+               n1: 2048 0x14F270: execute_command (in /bin/bash)
+                n1: 2048 0x14DE37: execute_command_internal (in /bin/bash)
+                 n1: 2048 0x14F270: execute_command (in /bin/bash)
+                  n1: 2048 0x14DE37: execute_command_internal (in /bin/bash)
+                   n1: 2048 0x196912: parse_and_execute (in /bin/bash)
+                    n1: 2048 0x195E74: ??? (in /bin/bash)
+                     n1: 2048 0x195FF5: maybe_execute_file (in /bin/bash)
+                      n0: 2048 0x13605A: main (in /bin/bash)
+   n0: 512 in 1 place, below massif's threshold (1.00%)
+  n0: 16980 in 117 places, all below massif's threshold (1.00%)
+  n2: 5760 0x1515F1: ??? (in /bin/bash)
+   n2: 5520 0x15497D: ??? (in /bin/bash)
+    n2: 4944 0x1549F4: ??? (in /bin/bash)
+     n1: 3408 0x156E07: initialize_shell_variables (in /bin/bash)
+      n1: 3408 0x136E57: ??? (in /bin/bash)
+       n0: 3408 0x13571D: main (in /bin/bash)
+     n0: 1536 in 28 places, all below massif's threshold (1.00%)
+    n0: 576 in 2 places, all below massif's threshold (1.00%)
+   n0: 240 in 1 place, below massif's threshold (1.00%)
+  n2: 4832 0x174F33: hash_insert (in /bin/bash)
+   n2: 3680 0x1549B6: ??? (in /bin/bash)
+    n2: 3296 0x1549F4: ??? (in /bin/bash)
+     n1: 2272 0x156E07: initialize_shell_variables (in /bin/bash)
+      n1: 2272 0x136E57: ??? (in /bin/bash)
+       n0: 2272 0x13571D: main (in /bin/bash)
+     n0: 1024 in 28 places, all below massif's threshold (1.00%)
+    n0: 384 in 2 places, all below massif's threshold (1.00%)
+   n0: 1152 in 4 places, all below massif's threshold (1.00%)
+  n1: 3828 0x15226F: ??? (in /bin/bash)
+   n2: 3828 0x155EC6: ??? (in /bin/bash)
+    n1: 3828 0x16A0BB: command_substitute (in /bin/bash)
+     n1: 3828 0x16EEA5: ??? (in /bin/bash)
+      n1: 3828 0x17043B: ??? (in /bin/bash)
+       n1: 3828 0x171269: ??? (in /bin/bash)
+        n1: 3828 0x173C75: ??? (in /bin/bash)
+         n1: 3828 0x14B6AD: ??? (in /bin/bash)
+          n1: 3828 0x14DA68: execute_command_internal (in /bin/bash)
+           n1: 3828 0x14F270: execute_command (in /bin/bash)
+            n2: 3828 0x14F026: execute_command_internal (in /bin/bash)
+             n1: 3828 0x14F270: execute_command (in /bin/bash)
+              n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+               n1: 3828 0x14F270: execute_command (in /bin/bash)
+                n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+                 n1: 3828 0x14F270: execute_command (in /bin/bash)
+                  n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+                   n1: 3828 0x14F270: execute_command (in /bin/bash)
+                    n1: 3828 0x14E4ED: execute_command_internal (in /bin/bash)
+                     n1: 3828 0x14F270: execute_command (in /bin/bash)
+                      n1: 3828 0x14DE37: execute_command_internal (in /bin/bash)
+                       n1: 3828 0x196912: parse_and_execute (in /bin/bash)
+                        n1: 3828 0x195E74: ??? (in /bin/bash)
+                         n1: 3828 0x195FF5: maybe_execute_file (in /bin/bash)
+                          n0: 3828 0x13605A: main (in /bin/bash)
+             n0: 0 in 1 place, below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+  n2: 3464 0x15390A: make_variable_value (in /bin/bash)
+   n1: 1865 0x154CFC: ??? (in /bin/bash)
+    n0: 1865 in 5 places, all below massif's threshold (1.00%)
+   n0: 1599 in 2 places, all below massif's threshold (1.00%)
+  n1: 2816 0x1583F8: copy_command (in /bin/bash)
+   n0: 2816 in 8 places, all below massif's threshold (1.00%)
+  n1: 2304 0x157082: initialize_shell_variables (in /bin/bash)
+   n1: 2304 0x136E57: ??? (in /bin/bash)
+    n0: 2304 0x13571D: main (in /bin/bash)
+  n2: 2128 0x14561C: alloc_word_desc (in /bin/bash)
+   n1: 1776 0x14564C: make_bare_word (in /bin/bash)
+    n0: 1776 in 7 places, all below massif's threshold (1.00%)
+   n0: 352 in 9 places, all below massif's threshold (1.00%)
+  n1: 2048 0x174A56: hash_create (in /bin/bash)
+   n1: 2048 0x1553D9: make_new_assoc_variable (in /bin/bash)
+    n0: 2048 in 2 places, all below massif's threshold (1.00%)
+ n1: 5507 0x1900E1: xrealloc (in /bin/bash)
+  n0: 5507 in 9 places, all below massif's threshold (1.00%)
+ n0: 4814 in 26 places, all below massif's threshold (1.00%)
+ n1: 3728 0x4AC8067: _nl_intern_locale_data (loadlocale.c:98)
+  n1: 3728 0x4AC88C3: _nl_load_locale_from_archive (loadarchive.c:477)
+   n1: 3728 0x4AC7A52: _nl_find_locale (findlocale.c:154)
+    n1: 3728 0x4AC7162: setlocale (setlocale.c:340)
+     n1: 3728 0x189A60: set_default_locale (in /bin/bash)
+      n0: 3728 0x134EA5: main (in /bin/bash)
+#-----------
+snapshot=7
+#-----------
+time=11538381
+mem_heap_B=171028
+mem_heap_extra_B=31964
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=13504951
+mem_heap_B=186526
+mem_heap_extra_B=40730
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=14835151
+mem_heap_B=197630
+mem_heap_extra_B=46794
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=17591958
+mem_heap_B=225848
+mem_heap_extra_B=61824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=19344551
+mem_heap_B=236906
+mem_heap_extra_B=68742
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=21026811
+mem_heap_B=251508
+mem_heap_extra_B=76052
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=22179866
+mem_heap_B=263129
+mem_heap_extra_B=81823
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=23983045
+mem_heap_B=284110
+mem_heap_extra_B=93514
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=26054838
+mem_heap_B=305139
+mem_heap_extra_B=104253
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=28469925
+mem_heap_B=322774
+mem_heap_extra_B=111394
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=31103678
+mem_heap_B=336999
+mem_heap_extra_B=117881
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=32646546
+mem_heap_B=383685
+mem_heap_extra_B=124571
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=34906331
+mem_heap_B=383817
+mem_heap_extra_B=124807
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=36621235
+mem_heap_B=383927
+mem_heap_extra_B=125041
+mem_stacks_B=0
+heap_tree=detailed
+n4: 383927 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n12: 336708 0x19007C: xmalloc (in /bin/bash)
+  n2: 76423 0x195ED7: ??? (in /bin/bash)
+   n1: 72567 0x196092: source_file (in /bin/bash)
+    n1: 72567 0x1A0637: source_builtin (in /bin/bash)
+     n1: 72567 0x14A223: ??? (in /bin/bash)
+      n1: 72567 0x14C68D: ??? (in /bin/bash)
+       n1: 72567 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 72567 0x14F270: execute_command (in /bin/bash)
+         n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n3: 50752 0x1583F8: copy_command (in /bin/bash)
+   n0: 18624 in 12 places, all below massif's threshold (1.00%)
+   n2: 16064 0x1587B8: copy_command (in /bin/bash)
+    n1: 8128 0x1587B8: copy_command (in /bin/bash)
+     n0: 8128 in 8 places, all below massif's threshold (1.00%)
+    n0: 7936 in 8 places, all below massif's threshold (1.00%)
+   n2: 16064 0x1587CA: copy_command (in /bin/bash)
+    n1: 8128 0x1587B8: copy_command (in /bin/bash)
+     n0: 8128 in 8 places, all below massif's threshold (1.00%)
+    n0: 7936 in 8 places, all below massif's threshold (1.00%)
+  n0: 39060 in 141 places, all below massif's threshold (1.00%)
+  n2: 32896 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 32496 0x14564C: make_bare_word (in /bin/bash)
+    n2: 22624 0x15826B: copy_word_list (in /bin/bash)
+     n3: 20544 0x158677: copy_command (in /bin/bash)
+      n2: 10272 0x1587CA: copy_command (in /bin/bash)
+       n1: 5600 0x1587B8: copy_command (in /bin/bash)
+        n0: 5600 in 7 places, all below massif's threshold (1.00%)
+       n0: 4672 in 7 places, all below massif's threshold (1.00%)
+      n1: 5216 0x1587B8: copy_command (in /bin/bash)
+       n0: 5216 in 8 places, all below massif's threshold (1.00%)
+      n0: 5056 in 8 places, all below massif's threshold (1.00%)
+     n0: 2080 in 7 places, all below massif's threshold (1.00%)
+    n1: 8256 0x1581E5: ??? (in /bin/bash)
+     n0: 8256 in 3 places, all below massif's threshold (1.00%)
+    n0: 1616 in 9 places, all below massif's threshold (1.00%)
+   n0: 400 in 11 places, all below massif's threshold (1.00%)
+  n2: 27337 0x145666: make_bare_word (in /bin/bash)
+   n2: 22618 0x15826B: copy_word_list (in /bin/bash)
+    n2: 21774 0x158677: copy_command (in /bin/bash)
+     n2: 10980 0x1587CA: copy_command (in /bin/bash)
+      n1: 6760 0x1587B8: copy_command (in /bin/bash)
+       n0: 6760 in 7 places, all below massif's threshold (1.00%)
+      n0: 4220 in 7 places, all below massif's threshold (1.00%)
+     n0: 10794 in 9 places, all below massif's threshold (1.00%)
+    n0: 844 in 7 places, all below massif's threshold (1.00%)
+   n0: 4719 in 10 places, all below massif's threshold (1.00%)
+  n2: 23024 0x1458C8: make_word_list (in /bin/bash)
+   n2: 22624 0x15827C: copy_word_list (in /bin/bash)
+    n3: 20544 0x158677: copy_command (in /bin/bash)
+     n2: 10272 0x1587CA: copy_command (in /bin/bash)
+      n1: 5600 0x1587B8: copy_command (in /bin/bash)
+       n0: 5600 in 7 places, all below massif's threshold (1.00%)
+      n0: 4672 in 7 places, all below massif's threshold (1.00%)
+     n1: 5216 0x1587B8: copy_command (in /bin/bash)
+      n0: 5216 in 8 places, all below massif's threshold (1.00%)
+     n0: 5056 in 8 places, all below massif's threshold (1.00%)
+    n0: 2080 in 7 places, all below massif's threshold (1.00%)
+   n0: 400 in 16 places, all below massif's threshold (1.00%)
+  n3: 21920 0x1581BF: ??? (in /bin/bash)
+   n2: 8960 0x158205: ??? (in /bin/bash)
+    n1: 6480 0x158787: copy_command (in /bin/bash)
+     n0: 6480 in 5 places, all below massif's threshold (1.00%)
+    n0: 2480 in 2 places, all below massif's threshold (1.00%)
+   n1: 6480 0x15821A: ??? (in /bin/bash)
+    n0: 6480 in 3 places, all below massif's threshold (1.00%)
+   n1: 6480 0x158787: copy_command (in /bin/bash)
+    n0: 6480 in 5 places, all below massif's threshold (1.00%)
+  n2: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 10752 in 4 places, all below massif's threshold (1.00%)
+   n1: 8192 0x154939: ??? (in /bin/bash)
+    n1: 8192 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 8192 0x136E57: ??? (in /bin/bash)
+      n0: 8192 0x13571D: main (in /bin/bash)
+  n2: 16064 0x1587A0: copy_command (in /bin/bash)
+   n1: 8128 0x1587B8: copy_command (in /bin/bash)
+    n0: 8128 in 8 places, all below massif's threshold (1.00%)
+   n0: 7936 in 8 places, all below massif's threshold (1.00%)
+  n2: 15168 0x158664: copy_command (in /bin/bash)
+   n0: 7584 in 9 places, all below massif's threshold (1.00%)
+   n1: 7584 0x1587CA: copy_command (in /bin/bash)
+    n0: 7584 in 8 places, all below massif's threshold (1.00%)
+  n2: 7728 0x1515F1: ??? (in /bin/bash)
+   n1: 5664 0x15497D: ??? (in /bin/bash)
+    n0: 5664 in 3 places, all below massif's threshold (1.00%)
+   n0: 2064 in 1 place, below massif's threshold (1.00%)
+  n1: 7392 0x174F33: hash_insert (in /bin/bash)
+   n0: 7392 in 5 places, all below massif's threshold (1.00%)
+ n1: 32816 0x4B716D4: opendir (opendir.c:118)
+  n1: 32816 0x1A9157: glob_vector (in /bin/bash)
+   n1: 32816 0x1A9ECC: glob_filename (in /bin/bash)
+    n1: 32816 0x178FDC: shell_glob_filename (in /bin/bash)
+     n1: 32816 0x17449C: ??? (in /bin/bash)
+      n1: 32816 0x14E70E: execute_command_internal (in /bin/bash)
+       n1: 32816 0x14F270: execute_command (in /bin/bash)
+        n1: 32816 0x14E869: execute_command_internal (in /bin/bash)
+         n1: 32816 0x196912: parse_and_execute (in /bin/bash)
+          n1: 32816 0x195E74: ??? (in /bin/bash)
+           n1: 32816 0x196092: source_file (in /bin/bash)
+            n1: 32816 0x1A0637: source_builtin (in /bin/bash)
+             n1: 32816 0x14A223: ??? (in /bin/bash)
+              n1: 32816 0x14C68D: ??? (in /bin/bash)
+               n1: 32816 0x14DA68: execute_command_internal (in /bin/bash)
+                n1: 32816 0x14F270: execute_command (in /bin/bash)
+                 n1: 32816 0x14DE37: execute_command_internal (in /bin/bash)
+                  n1: 32816 0x14F270: execute_command (in /bin/bash)
+                   n1: 32816 0x14DE37: execute_command_internal (in /bin/bash)
+                    n1: 32816 0x196912: parse_and_execute (in /bin/bash)
+                     n1: 32816 0x195E74: ??? (in /bin/bash)
+                      n1: 32816 0x195FF5: maybe_execute_file (in /bin/bash)
+                       n0: 32816 0x13605A: main (in /bin/bash)
+ n0: 8893 in 31 places, all below massif's threshold (1.00%)
+ n1: 5510 0x1900E1: xrealloc (in /bin/bash)
+  n0: 5510 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=37934374
+mem_heap_B=384003
+mem_heap_extra_B=125149
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=40454162
+mem_heap_B=357058
+mem_heap_extra_B=127686
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=41939104
+mem_heap_B=360553
+mem_heap_extra_B=128439
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=43399043
+mem_heap_B=375153
+mem_heap_extra_B=135903
+mem_stacks_B=0
+heap_tree=detailed
+n3: 375153 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n12: 360649 0x19007C: xmalloc (in /bin/bash)
+  n2: 76423 0x195ED7: ??? (in /bin/bash)
+   n1: 72567 0x196092: source_file (in /bin/bash)
+    n1: 72567 0x1A0637: source_builtin (in /bin/bash)
+     n1: 72567 0x14A223: ??? (in /bin/bash)
+      n1: 72567 0x14C68D: ??? (in /bin/bash)
+       n1: 72567 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 72567 0x14F270: execute_command (in /bin/bash)
+         n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n3: 55360 0x1583F8: copy_command (in /bin/bash)
+   n0: 21056 in 12 places, all below massif's threshold (1.00%)
+   n2: 17152 0x1587B8: copy_command (in /bin/bash)
+    n0: 8704 in 8 places, all below massif's threshold (1.00%)
+    n2: 8448 0x1587B8: copy_command (in /bin/bash)
+     n1: 5184 0x1587B8: copy_command (in /bin/bash)
+      n0: 5184 in 8 places, all below massif's threshold (1.00%)
+     n0: 3264 in 7 places, all below massif's threshold (1.00%)
+   n2: 17152 0x1587CA: copy_command (in /bin/bash)
+    n0: 8704 in 8 places, all below massif's threshold (1.00%)
+    n2: 8448 0x1587B8: copy_command (in /bin/bash)
+     n1: 5184 0x1587B8: copy_command (in /bin/bash)
+      n0: 5184 in 8 places, all below massif's threshold (1.00%)
+     n0: 3264 in 7 places, all below massif's threshold (1.00%)
+  n0: 44858 in 142 places, all below massif's threshold (1.00%)
+  n2: 35488 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 35152 0x14564C: make_bare_word (in /bin/bash)
+    n2: 24288 0x15826B: copy_word_list (in /bin/bash)
+     n3: 22208 0x158677: copy_command (in /bin/bash)
+      n2: 10752 0x1587CA: copy_command (in /bin/bash)
+       n1: 5760 0x1587B8: copy_command (in /bin/bash)
+        n0: 5760 in 7 places, all below massif's threshold (1.00%)
+       n0: 4992 in 7 places, all below massif's threshold (1.00%)
+      n1: 5952 0x1587B8: copy_command (in /bin/bash)
+       n0: 5952 in 8 places, all below massif's threshold (1.00%)
+      n0: 5504 in 8 places, all below massif's threshold (1.00%)
+     n0: 2080 in 7 places, all below massif's threshold (1.00%)
+    n1: 9120 0x1581E5: ??? (in /bin/bash)
+     n0: 9120 in 3 places, all below massif's threshold (1.00%)
+    n0: 1744 in 10 places, all below massif's threshold (1.00%)
+   n0: 336 in 11 places, all below massif's threshold (1.00%)
+  n2: 29880 0x145666: make_bare_word (in /bin/bash)
+   n2: 24888 0x15826B: copy_word_list (in /bin/bash)
+    n2: 24044 0x158677: copy_command (in /bin/bash)
+     n2: 12430 0x1587CA: copy_command (in /bin/bash)
+      n1: 6948 0x1587B8: copy_command (in /bin/bash)
+       n0: 6948 in 7 places, all below massif's threshold (1.00%)
+      n0: 5482 in 7 places, all below massif's threshold (1.00%)
+     n0: 11614 in 9 places, all below massif's threshold (1.00%)
+    n0: 844 in 7 places, all below massif's threshold (1.00%)
+   n0: 4992 in 11 places, all below massif's threshold (1.00%)
+  n2: 24608 0x1458C8: make_word_list (in /bin/bash)
+   n2: 24288 0x15827C: copy_word_list (in /bin/bash)
+    n3: 22208 0x158677: copy_command (in /bin/bash)
+     n2: 10752 0x1587CA: copy_command (in /bin/bash)
+      n1: 5760 0x1587B8: copy_command (in /bin/bash)
+       n0: 5760 in 7 places, all below massif's threshold (1.00%)
+      n0: 4992 in 7 places, all below massif's threshold (1.00%)
+     n1: 5952 0x1587B8: copy_command (in /bin/bash)
+      n0: 5952 in 8 places, all below massif's threshold (1.00%)
+     n0: 5504 in 8 places, all below massif's threshold (1.00%)
+    n0: 2080 in 7 places, all below massif's threshold (1.00%)
+   n0: 320 in 17 places, all below massif's threshold (1.00%)
+  n3: 24240 0x1581BF: ??? (in /bin/bash)
+   n2: 9840 0x158205: ??? (in /bin/bash)
+    n1: 7040 0x158787: copy_command (in /bin/bash)
+     n0: 7040 in 5 places, all below massif's threshold (1.00%)
+    n0: 2800 in 2 places, all below massif's threshold (1.00%)
+   n2: 7360 0x15821A: ??? (in /bin/bash)
+    n1: 5280 0x158787: copy_command (in /bin/bash)
+     n0: 5280 in 5 places, all below massif's threshold (1.00%)
+    n0: 2080 in 2 places, all below massif's threshold (1.00%)
+   n1: 7040 0x158787: copy_command (in /bin/bash)
+    n0: 7040 in 5 places, all below massif's threshold (1.00%)
+  n2: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 10752 in 4 places, all below massif's threshold (1.00%)
+   n1: 8192 0x154939: ??? (in /bin/bash)
+    n1: 8192 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 8192 0x136E57: ??? (in /bin/bash)
+      n0: 8192 0x13571D: main (in /bin/bash)
+  n2: 17152 0x1587A0: copy_command (in /bin/bash)
+   n0: 8704 in 8 places, all below massif's threshold (1.00%)
+   n2: 8448 0x1587B8: copy_command (in /bin/bash)
+    n1: 5184 0x1587B8: copy_command (in /bin/bash)
+     n0: 5184 in 8 places, all below massif's threshold (1.00%)
+    n0: 3264 in 7 places, all below massif's threshold (1.00%)
+  n2: 16752 0x158664: copy_command (in /bin/bash)
+   n0: 8496 in 9 places, all below massif's threshold (1.00%)
+   n1: 8256 0x1587CA: copy_command (in /bin/bash)
+    n0: 8256 in 8 places, all below massif's threshold (1.00%)
+  n1: 9024 0x174F33: hash_insert (in /bin/bash)
+   n0: 9024 in 5 places, all below massif's threshold (1.00%)
+  n2: 7920 0x1515F1: ??? (in /bin/bash)
+   n1: 5568 0x15497D: ??? (in /bin/bash)
+    n0: 5568 in 3 places, all below massif's threshold (1.00%)
+   n0: 2352 in 1 place, below massif's threshold (1.00%)
+ n0: 8622 in 35 places, all below massif's threshold (1.00%)
+ n1: 5882 0x1900E1: xrealloc (in /bin/bash)
+  n0: 5882 in 16 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=25
+#-----------
+time=45787393
+mem_heap_B=402844
+mem_heap_extra_B=150556
+mem_stacks_B=0
+heap_tree=detailed
+n2: 402844 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n12: 388698 0x19007C: xmalloc (in /bin/bash)
+  n2: 76423 0x195ED7: ??? (in /bin/bash)
+   n1: 72567 0x196092: source_file (in /bin/bash)
+    n1: 72567 0x1A0637: source_builtin (in /bin/bash)
+     n1: 72567 0x14A223: ??? (in /bin/bash)
+      n1: 72567 0x14C68D: ??? (in /bin/bash)
+       n1: 72567 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 72567 0x14F270: execute_command (in /bin/bash)
+         n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n3: 61120 0x1583F8: copy_command (in /bin/bash)
+   n0: 23744 in 12 places, all below massif's threshold (1.00%)
+   n2: 18688 0x1587B8: copy_command (in /bin/bash)
+    n0: 9664 in 8 places, all below massif's threshold (1.00%)
+    n1: 9024 0x1587B8: copy_command (in /bin/bash)
+     n0: 9024 in 8 places, all below massif's threshold (1.00%)
+   n2: 18688 0x1587CA: copy_command (in /bin/bash)
+    n0: 9664 in 8 places, all below massif's threshold (1.00%)
+    n1: 9024 0x1587B8: copy_command (in /bin/bash)
+     n0: 9024 in 8 places, all below massif's threshold (1.00%)
+  n0: 49131 in 143 places, all below massif's threshold (1.00%)
+  n2: 39728 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 39008 0x14564C: make_bare_word (in /bin/bash)
+    n2: 27008 0x15826B: copy_word_list (in /bin/bash)
+     n3: 24800 0x158677: copy_command (in /bin/bash)
+      n2: 11488 0x1587CA: copy_command (in /bin/bash)
+       n1: 6016 0x1587B8: copy_command (in /bin/bash)
+        n0: 6016 in 7 places, all below massif's threshold (1.00%)
+       n0: 5472 in 7 places, all below massif's threshold (1.00%)
+      n1: 6912 0x1587B8: copy_command (in /bin/bash)
+       n0: 6912 in 8 places, all below massif's threshold (1.00%)
+      n0: 6400 in 8 places, all below massif's threshold (1.00%)
+     n0: 2208 in 7 places, all below massif's threshold (1.00%)
+    n1: 9920 0x1581E5: ??? (in /bin/bash)
+     n0: 9920 in 3 places, all below massif's threshold (1.00%)
+    n0: 2080 in 10 places, all below massif's threshold (1.00%)
+   n0: 720 in 11 places, all below massif's threshold (1.00%)
+  n2: 33816 0x145666: make_bare_word (in /bin/bash)
+   n2: 28372 0x15826B: copy_word_list (in /bin/bash)
+    n2: 27432 0x158677: copy_command (in /bin/bash)
+     n0: 14266 in 9 places, all below massif's threshold (1.00%)
+     n2: 13166 0x1587CA: copy_command (in /bin/bash)
+      n1: 7096 0x1587B8: copy_command (in /bin/bash)
+       n0: 7096 in 7 places, all below massif's threshold (1.00%)
+      n0: 6070 in 7 places, all below massif's threshold (1.00%)
+    n0: 940 in 7 places, all below massif's threshold (1.00%)
+   n0: 5444 in 11 places, all below massif's threshold (1.00%)
+  n2: 27552 0x1458C8: make_word_list (in /bin/bash)
+   n2: 27008 0x15827C: copy_word_list (in /bin/bash)
+    n3: 24800 0x158677: copy_command (in /bin/bash)
+     n2: 11488 0x1587CA: copy_command (in /bin/bash)
+      n1: 6016 0x1587B8: copy_command (in /bin/bash)
+       n0: 6016 in 7 places, all below massif's threshold (1.00%)
+      n0: 5472 in 7 places, all below massif's threshold (1.00%)
+     n1: 6912 0x1587B8: copy_command (in /bin/bash)
+      n0: 6912 in 8 places, all below massif's threshold (1.00%)
+     n0: 6400 in 8 places, all below massif's threshold (1.00%)
+    n0: 2208 in 7 places, all below massif's threshold (1.00%)
+   n0: 544 in 17 places, all below massif's threshold (1.00%)
+  n3: 26400 0x1581BF: ??? (in /bin/bash)
+   n2: 10720 0x158205: ??? (in /bin/bash)
+    n1: 7600 0x158787: copy_command (in /bin/bash)
+     n0: 7600 in 5 places, all below massif's threshold (1.00%)
+    n0: 3120 in 2 places, all below massif's threshold (1.00%)
+   n2: 8080 0x15821A: ??? (in /bin/bash)
+    n1: 5680 0x158787: copy_command (in /bin/bash)
+     n0: 5680 in 5 places, all below massif's threshold (1.00%)
+    n0: 2400 in 2 places, all below massif's threshold (1.00%)
+   n1: 7600 0x158787: copy_command (in /bin/bash)
+    n0: 7600 in 5 places, all below massif's threshold (1.00%)
+  n2: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 10752 in 4 places, all below massif's threshold (1.00%)
+   n1: 8192 0x154939: ??? (in /bin/bash)
+    n1: 8192 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 8192 0x136E57: ??? (in /bin/bash)
+      n0: 8192 0x13571D: main (in /bin/bash)
+  n2: 18688 0x1587A0: copy_command (in /bin/bash)
+   n0: 9664 in 8 places, all below massif's threshold (1.00%)
+   n1: 9024 0x1587B8: copy_command (in /bin/bash)
+    n0: 9024 in 8 places, all below massif's threshold (1.00%)
+  n2: 18624 0x158664: copy_command (in /bin/bash)
+   n0: 9696 in 9 places, all below massif's threshold (1.00%)
+   n1: 8928 0x1587CA: copy_command (in /bin/bash)
+    n0: 8928 in 8 places, all below massif's threshold (1.00%)
+  n1: 9824 0x174F33: hash_insert (in /bin/bash)
+   n0: 9824 in 5 places, all below massif's threshold (1.00%)
+  n2: 8448 0x1515F1: ??? (in /bin/bash)
+   n1: 5568 0x15497D: ??? (in /bin/bash)
+    n0: 5568 in 3 places, all below massif's threshold (1.00%)
+   n0: 2880 in 1 place, below massif's threshold (1.00%)
+ n0: 14146 in 36 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=26
+#-----------
+time=47152561
+mem_heap_B=407117
+mem_heap_extra_B=152523
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=49341040
+mem_heap_B=420411
+mem_heap_extra_B=159701
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=51890088
+mem_heap_B=449983
+mem_heap_extra_B=174297
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=53828745
+mem_heap_B=468316
+mem_heap_extra_B=184196
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=55257829
+mem_heap_B=487903
+mem_heap_extra_B=194233
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=56980244
+mem_heap_B=504593
+mem_heap_extra_B=203047
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=58729159
+mem_heap_B=513843
+mem_heap_extra_B=207501
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=60550136
+mem_heap_B=520579
+mem_heap_extra_B=209757
+mem_stacks_B=0
+heap_tree=detailed
+n2: 520579 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n12: 506130 0x19007C: xmalloc (in /bin/bash)
+  n3: 88608 0x1583F8: copy_command (in /bin/bash)
+   n0: 32544 in 12 places, all below massif's threshold (1.00%)
+   n2: 28032 0x1587B8: copy_command (in /bin/bash)
+    n2: 14560 0x1587B8: copy_command (in /bin/bash)
+     n1: 9408 0x1587B8: copy_command (in /bin/bash)
+      n0: 9408 in 8 places, all below massif's threshold (1.00%)
+     n0: 5152 in 8 places, all below massif's threshold (1.00%)
+    n0: 13472 in 8 places, all below massif's threshold (1.00%)
+   n2: 28032 0x1587CA: copy_command (in /bin/bash)
+    n2: 14560 0x1587B8: copy_command (in /bin/bash)
+     n1: 9408 0x1587B8: copy_command (in /bin/bash)
+      n0: 9408 in 8 places, all below massif's threshold (1.00%)
+     n0: 5152 in 8 places, all below massif's threshold (1.00%)
+    n0: 13472 in 8 places, all below massif's threshold (1.00%)
+  n2: 76423 0x195ED7: ??? (in /bin/bash)
+   n1: 72567 0x196092: source_file (in /bin/bash)
+    n1: 72567 0x1A0637: source_builtin (in /bin/bash)
+     n1: 72567 0x14A223: ??? (in /bin/bash)
+      n1: 72567 0x14C68D: ??? (in /bin/bash)
+       n1: 72567 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 72567 0x14F270: execute_command (in /bin/bash)
+         n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n0: 62339 in 149 places, all below massif's threshold (1.00%)
+  n2: 56080 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 55792 0x14564C: make_bare_word (in /bin/bash)
+    n2: 37856 0x15826B: copy_word_list (in /bin/bash)
+     n3: 33776 0x158677: copy_command (in /bin/bash)
+      n2: 16432 0x1587CA: copy_command (in /bin/bash)
+       n1: 9424 0x1587B8: copy_command (in /bin/bash)
+        n0: 9424 in 9 places, all below massif's threshold (1.00%)
+       n0: 7008 in 7 places, all below massif's threshold (1.00%)
+      n1: 9520 0x1587B8: copy_command (in /bin/bash)
+       n0: 9520 in 9 places, all below massif's threshold (1.00%)
+      n0: 7824 in 9 places, all below massif's threshold (1.00%)
+     n0: 4080 in 7 places, all below massif's threshold (1.00%)
+    n1: 15072 0x1581E5: ??? (in /bin/bash)
+     n0: 15072 in 3 places, all below massif's threshold (1.00%)
+    n0: 2864 in 11 places, all below massif's threshold (1.00%)
+   n0: 288 in 11 places, all below massif's threshold (1.00%)
+  n2: 47696 0x145666: make_bare_word (in /bin/bash)
+   n2: 39963 0x15826B: copy_word_list (in /bin/bash)
+    n3: 37658 0x158677: copy_command (in /bin/bash)
+     n2: 18662 0x1587CA: copy_command (in /bin/bash)
+      n1: 10852 0x1587B8: copy_command (in /bin/bash)
+       n0: 10852 in 9 places, all below massif's threshold (1.00%)
+      n0: 7810 in 7 places, all below massif's threshold (1.00%)
+     n0: 11241 in 9 places, all below massif's threshold (1.00%)
+     n1: 7755 0x1587B8: copy_command (in /bin/bash)
+      n0: 7755 in 9 places, all below massif's threshold (1.00%)
+    n0: 2305 in 7 places, all below massif's threshold (1.00%)
+   n0: 7733 in 12 places, all below massif's threshold (1.00%)
+  n3: 40320 0x1581BF: ??? (in /bin/bash)
+   n2: 16800 0x158205: ??? (in /bin/bash)
+    n1: 11680 0x158787: copy_command (in /bin/bash)
+     n0: 11680 in 5 places, all below massif's threshold (1.00%)
+    n0: 5120 in 2 places, all below massif's threshold (1.00%)
+   n2: 11840 0x15821A: ??? (in /bin/bash)
+    n1: 8480 0x158787: copy_command (in /bin/bash)
+     n0: 8480 in 5 places, all below massif's threshold (1.00%)
+    n0: 3360 in 2 places, all below massif's threshold (1.00%)
+   n1: 11680 0x158787: copy_command (in /bin/bash)
+    n0: 11680 in 5 places, all below massif's threshold (1.00%)
+  n2: 38272 0x1458C8: make_word_list (in /bin/bash)
+   n2: 37856 0x15827C: copy_word_list (in /bin/bash)
+    n3: 33776 0x158677: copy_command (in /bin/bash)
+     n2: 16432 0x1587CA: copy_command (in /bin/bash)
+      n1: 9424 0x1587B8: copy_command (in /bin/bash)
+       n0: 9424 in 9 places, all below massif's threshold (1.00%)
+      n0: 7008 in 7 places, all below massif's threshold (1.00%)
+     n1: 9520 0x1587B8: copy_command (in /bin/bash)
+      n0: 9520 in 9 places, all below massif's threshold (1.00%)
+     n0: 7824 in 9 places, all below massif's threshold (1.00%)
+    n0: 4080 in 7 places, all below massif's threshold (1.00%)
+   n0: 416 in 19 places, all below massif's threshold (1.00%)
+  n2: 28032 0x1587A0: copy_command (in /bin/bash)
+   n2: 14560 0x1587B8: copy_command (in /bin/bash)
+    n1: 9408 0x1587B8: copy_command (in /bin/bash)
+     n0: 9408 in 8 places, all below massif's threshold (1.00%)
+    n0: 5152 in 8 places, all below massif's threshold (1.00%)
+   n0: 13472 in 8 places, all below massif's threshold (1.00%)
+  n2: 26280 0x158664: copy_command (in /bin/bash)
+   n1: 13224 0x1587CA: copy_command (in /bin/bash)
+    n0: 13224 in 8 places, all below massif's threshold (1.00%)
+   n0: 13056 in 10 places, all below massif's threshold (1.00%)
+  n2: 18976 0x174A9A: hash_create (in /bin/bash)
+   n0: 10784 in 5 places, all below massif's threshold (1.00%)
+   n1: 8192 0x154939: ??? (in /bin/bash)
+    n1: 8192 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 8192 0x136E57: ??? (in /bin/bash)
+      n0: 8192 0x13571D: main (in /bin/bash)
+  n1: 14080 0x174F33: hash_insert (in /bin/bash)
+   n0: 14080 in 5 places, all below massif's threshold (1.00%)
+  n1: 9024 0x1515F1: ??? (in /bin/bash)
+   n0: 9024 in 2 places, all below massif's threshold (1.00%)
+ n0: 14449 in 37 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=34
+#-----------
+time=63153426
+mem_heap_B=520448
+mem_heap_extra_B=210616
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=64677688
+mem_heap_B=525580
+mem_heap_extra_B=213300
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=66093457
+mem_heap_B=524828
+mem_heap_extra_B=212732
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=68146107
+mem_heap_B=538976
+mem_heap_extra_B=220648
+mem_stacks_B=0
+heap_tree=detailed
+n2: 538976 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n12: 524847 0x19007C: xmalloc (in /bin/bash)
+  n3: 90976 0x1583F8: copy_command (in /bin/bash)
+   n0: 32992 in 12 places, all below massif's threshold (1.00%)
+   n2: 28992 0x1587B8: copy_command (in /bin/bash)
+    n2: 15136 0x1587B8: copy_command (in /bin/bash)
+     n1: 9792 0x1587B8: copy_command (in /bin/bash)
+      n0: 9792 in 8 places, all below massif's threshold (1.00%)
+     n0: 5344 in 8 places, all below massif's threshold (1.00%)
+    n0: 13856 in 8 places, all below massif's threshold (1.00%)
+   n2: 28992 0x1587CA: copy_command (in /bin/bash)
+    n2: 15136 0x1587B8: copy_command (in /bin/bash)
+     n1: 9792 0x1587B8: copy_command (in /bin/bash)
+      n0: 9792 in 8 places, all below massif's threshold (1.00%)
+     n0: 5344 in 8 places, all below massif's threshold (1.00%)
+    n0: 13856 in 8 places, all below massif's threshold (1.00%)
+  n2: 76423 0x195ED7: ??? (in /bin/bash)
+   n1: 72567 0x196092: source_file (in /bin/bash)
+    n1: 72567 0x1A0637: source_builtin (in /bin/bash)
+     n1: 72567 0x14A223: ??? (in /bin/bash)
+      n1: 72567 0x14C68D: ??? (in /bin/bash)
+       n1: 72567 0x14DA68: execute_command_internal (in /bin/bash)
+        n1: 72567 0x14F270: execute_command (in /bin/bash)
+         n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n0: 71590 in 150 places, all below massif's threshold (1.00%)
+  n2: 58160 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 57248 0x14564C: make_bare_word (in /bin/bash)
+    n2: 39040 0x15826B: copy_word_list (in /bin/bash)
+     n3: 34832 0x158677: copy_command (in /bin/bash)
+      n2: 17104 0x1587CA: copy_command (in /bin/bash)
+       n1: 9808 0x1587B8: copy_command (in /bin/bash)
+        n0: 9808 in 9 places, all below massif's threshold (1.00%)
+       n0: 7296 in 7 places, all below massif's threshold (1.00%)
+      n1: 9840 0x1587B8: copy_command (in /bin/bash)
+       n0: 9840 in 9 places, all below massif's threshold (1.00%)
+      n0: 7888 in 9 places, all below massif's threshold (1.00%)
+     n0: 4208 in 8 places, all below massif's threshold (1.00%)
+    n1: 15296 0x1581E5: ??? (in /bin/bash)
+     n0: 15296 in 3 places, all below massif's threshold (1.00%)
+    n0: 2912 in 12 places, all below massif's threshold (1.00%)
+   n0: 912 in 11 places, all below massif's threshold (1.00%)
+  n2: 48874 0x145666: make_bare_word (in /bin/bash)
+   n2: 40951 0x15826B: copy_word_list (in /bin/bash)
+    n3: 38480 0x158677: copy_command (in /bin/bash)
+     n2: 18966 0x1587CA: copy_command (in /bin/bash)
+      n1: 11056 0x1587B8: copy_command (in /bin/bash)
+       n0: 11056 in 9 places, all below massif's threshold (1.00%)
+      n0: 7910 in 7 places, all below massif's threshold (1.00%)
+     n0: 11405 in 9 places, all below massif's threshold (1.00%)
+     n1: 8109 0x1587B8: copy_command (in /bin/bash)
+      n0: 8109 in 9 places, all below massif's threshold (1.00%)
+    n0: 2471 in 8 places, all below massif's threshold (1.00%)
+   n0: 7923 in 13 places, all below massif's threshold (1.00%)
+  n3: 40880 0x1581BF: ??? (in /bin/bash)
+   n2: 17040 0x158205: ??? (in /bin/bash)
+    n1: 11920 0x158787: copy_command (in /bin/bash)
+     n0: 11920 in 5 places, all below massif's threshold (1.00%)
+    n0: 5120 in 2 places, all below massif's threshold (1.00%)
+   n2: 11920 0x15821A: ??? (in /bin/bash)
+    n1: 8560 0x158787: copy_command (in /bin/bash)
+     n0: 8560 in 5 places, all below massif's threshold (1.00%)
+    n0: 3360 in 2 places, all below massif's threshold (1.00%)
+   n1: 11920 0x158787: copy_command (in /bin/bash)
+    n0: 11920 in 5 places, all below massif's threshold (1.00%)
+  n2: 39808 0x1458C8: make_word_list (in /bin/bash)
+   n2: 39040 0x15827C: copy_word_list (in /bin/bash)
+    n3: 34832 0x158677: copy_command (in /bin/bash)
+     n2: 17104 0x1587CA: copy_command (in /bin/bash)
+      n1: 9808 0x1587B8: copy_command (in /bin/bash)
+       n0: 9808 in 9 places, all below massif's threshold (1.00%)
+      n0: 7296 in 7 places, all below massif's threshold (1.00%)
+     n1: 9840 0x1587B8: copy_command (in /bin/bash)
+      n0: 9840 in 9 places, all below massif's threshold (1.00%)
+     n0: 7888 in 9 places, all below massif's threshold (1.00%)
+    n0: 4208 in 8 places, all below massif's threshold (1.00%)
+   n0: 768 in 20 places, all below massif's threshold (1.00%)
+  n2: 28992 0x1587A0: copy_command (in /bin/bash)
+   n2: 15136 0x1587B8: copy_command (in /bin/bash)
+    n1: 9792 0x1587B8: copy_command (in /bin/bash)
+     n0: 9792 in 8 places, all below massif's threshold (1.00%)
+    n0: 5344 in 8 places, all below massif's threshold (1.00%)
+   n0: 13856 in 8 places, all below massif's threshold (1.00%)
+  n2: 27000 0x158664: copy_command (in /bin/bash)
+   n1: 13656 0x1587CA: copy_command (in /bin/bash)
+    n0: 13656 in 8 places, all below massif's threshold (1.00%)
+   n0: 13344 in 10 places, all below massif's threshold (1.00%)
+  n2: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 10752 in 5 places, all below massif's threshold (1.00%)
+   n1: 8192 0x154939: ??? (in /bin/bash)
+    n1: 8192 0x156D67: initialize_shell_variables (in /bin/bash)
+     n1: 8192 0x136E57: ??? (in /bin/bash)
+      n0: 8192 0x13571D: main (in /bin/bash)
+  n1: 14176 0x174F33: hash_insert (in /bin/bash)
+   n0: 14176 in 5 places, all below massif's threshold (1.00%)
+  n1: 9024 0x1515F1: ??? (in /bin/bash)
+   n0: 9024 in 2 places, all below massif's threshold (1.00%)
+ n0: 14129 in 37 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=38
+#-----------
+time=69674855
+mem_heap_B=554961
+mem_heap_extra_B=225263
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=71814303
+mem_heap_B=570908
+mem_heap_extra_B=233252
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=73868481
+mem_heap_B=585512
+mem_heap_extra_B=243592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=75375571
+mem_heap_B=604563
+mem_heap_extra_B=244325
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=76796749
+mem_heap_B=606406
+mem_heap_extra_B=245410
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=79444979
+mem_heap_B=640574
+mem_heap_extra_B=262986
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=80874467
+mem_heap_B=646175
+mem_heap_extra_B=266265
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=83438309
+mem_heap_B=668073
+mem_heap_extra_B=278671
+mem_stacks_B=0
+heap_tree=detailed
+n2: 668073 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n12: 653819 0x19007C: xmalloc (in /bin/bash)
+  n3: 111072 0x1583F8: copy_command (in /bin/bash)
+   n0: 41696 in 12 places, all below massif's threshold (1.00%)
+   n2: 34688 0x1587B8: copy_command (in /bin/bash)
+    n2: 18784 0x1587B8: copy_command (in /bin/bash)
+     n1: 12288 0x1587B8: copy_command (in /bin/bash)
+      n0: 12288 in 8 places, all below massif's threshold (1.00%)
+     n0: 6496 in 8 places, all below massif's threshold (1.00%)
+    n0: 15904 in 9 places, all below massif's threshold (1.00%)
+   n2: 34688 0x1587CA: copy_command (in /bin/bash)
+    n2: 18784 0x1587B8: copy_command (in /bin/bash)
+     n1: 12288 0x1587B8: copy_command (in /bin/bash)
+      n0: 12288 in 8 places, all below massif's threshold (1.00%)
+     n0: 6496 in 8 places, all below massif's threshold (1.00%)
+    n0: 15904 in 9 places, all below massif's threshold (1.00%)
+  n0: 98475 in 153 places, all below massif's threshold (1.00%)
+  n2: 93243 0x195ED7: ??? (in /bin/bash)
+   n1: 89387 0x196092: source_file (in /bin/bash)
+    n1: 89387 0x1A0637: source_builtin (in /bin/bash)
+     n1: 89387 0x14A223: ??? (in /bin/bash)
+      n1: 89387 0x14C68D: ??? (in /bin/bash)
+       n1: 89387 0x14DA68: execute_command_internal (in /bin/bash)
+        n2: 89387 0x14F270: execute_command (in /bin/bash)
+         n2: 88947 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+          n1: 16380 0x196912: parse_and_execute (in /bin/bash)
+           n1: 16380 0x195E74: ??? (in /bin/bash)
+            n1: 16380 0x196092: source_file (in /bin/bash)
+             n1: 16380 0x1A0637: source_builtin (in /bin/bash)
+              n1: 16380 0x14A223: ??? (in /bin/bash)
+               n1: 16380 0x14C68D: ??? (in /bin/bash)
+                n1: 16380 0x14DA68: execute_command_internal (in /bin/bash)
+                 n1: 16380 0x14F270: execute_command (in /bin/bash)
+                  n1: 16380 0x14F026: execute_command_internal (in /bin/bash)
+                   n1: 16380 0x14F270: execute_command (in /bin/bash)
+                    n1: 16380 0x14E869: execute_command_internal (in /bin/bash)
+                     n1: 16380 0x14F270: execute_command (in /bin/bash)
+                      n1: 16380 0x14DE37: execute_command_internal (in /bin/bash)
+                       n1: 16380 0x196912: parse_and_execute (in /bin/bash)
+                        n1: 16380 0x195E74: ??? (in /bin/bash)
+                         n1: 16380 0x196092: source_file (in /bin/bash)
+                          n1: 16380 0x1A0637: source_builtin (in /bin/bash)
+                           n1: 16380 0x14A223: ??? (in /bin/bash)
+                            n1: 16380 0x14C68D: ??? (in /bin/bash)
+                             n1: 16380 0x14DA68: execute_command_internal (in /bin/bash)
+                              n0: 16380 0x14F270: execute_command (in /bin/bash)
+         n0: 440 in 1 place, below massif's threshold (1.00%)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n2: 75776 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 70608 0x14564C: make_bare_word (in /bin/bash)
+    n2: 49152 0x15826B: copy_word_list (in /bin/bash)
+     n3: 42704 0x158677: copy_command (in /bin/bash)
+      n2: 19760 0x1587CA: copy_command (in /bin/bash)
+       n1: 11536 0x1587B8: copy_command (in /bin/bash)
+        n0: 11536 in 9 places, all below massif's threshold (1.00%)
+       n0: 8224 in 8 places, all below massif's threshold (1.00%)
+      n1: 12080 0x1587B8: copy_command (in /bin/bash)
+       n0: 12080 in 10 places, all below massif's threshold (1.00%)
+      n0: 10864 in 9 places, all below massif's threshold (1.00%)
+     n0: 6448 in 8 places, all below massif's threshold (1.00%)
+    n1: 17632 0x1581E5: ??? (in /bin/bash)
+     n0: 17632 in 3 places, all below massif's threshold (1.00%)
+    n0: 3824 in 14 places, all below massif's threshold (1.00%)
+   n0: 5168 in 12 places, all below massif's threshold (1.00%)
+  n2: 61085 0x145666: make_bare_word (in /bin/bash)
+   n2: 50961 0x15826B: copy_word_list (in /bin/bash)
+    n3: 47542 0x158677: copy_command (in /bin/bash)
+     n2: 22514 0x1587CA: copy_command (in /bin/bash)
+      n1: 13748 0x1587B8: copy_command (in /bin/bash)
+       n0: 13748 in 9 places, all below massif's threshold (1.00%)
+      n0: 8766 in 8 places, all below massif's threshold (1.00%)
+     n0: 15359 in 9 places, all below massif's threshold (1.00%)
+     n1: 9669 0x1587B8: copy_command (in /bin/bash)
+      n0: 9669 in 10 places, all below massif's threshold (1.00%)
+    n0: 3419 in 8 places, all below massif's threshold (1.00%)
+   n0: 10124 in 15 places, all below massif's threshold (1.00%)
+  n2: 54128 0x1458C8: make_word_list (in /bin/bash)
+   n2: 49152 0x15827C: copy_word_list (in /bin/bash)
+    n3: 42704 0x158677: copy_command (in /bin/bash)
+     n2: 19760 0x1587CA: copy_command (in /bin/bash)
+      n1: 11536 0x1587B8: copy_command (in /bin/bash)
+       n0: 11536 in 9 places, all below massif's threshold (1.00%)
+      n0: 8224 in 8 places, all below massif's threshold (1.00%)
+     n1: 12080 0x1587B8: copy_command (in /bin/bash)
+      n0: 12080 in 10 places, all below massif's threshold (1.00%)
+     n0: 10864 in 9 places, all below massif's threshold (1.00%)
+    n0: 6448 in 8 places, all below massif's threshold (1.00%)
+   n0: 4976 in 22 places, all below massif's threshold (1.00%)
+  n3: 47440 0x1581BF: ??? (in /bin/bash)
+   n2: 19920 0x158205: ??? (in /bin/bash)
+    n1: 13360 0x158787: copy_command (in /bin/bash)
+     n0: 13360 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n2: 14160 0x15821A: ??? (in /bin/bash)
+    n1: 9600 0x158787: copy_command (in /bin/bash)
+     n0: 9600 in 5 places, all below massif's threshold (1.00%)
+    n0: 4560 in 2 places, all below massif's threshold (1.00%)
+   n1: 13360 0x158787: copy_command (in /bin/bash)
+    n0: 13360 in 5 places, all below massif's threshold (1.00%)
+  n2: 34688 0x1587A0: copy_command (in /bin/bash)
+   n2: 18784 0x1587B8: copy_command (in /bin/bash)
+    n1: 12288 0x1587B8: copy_command (in /bin/bash)
+     n0: 12288 in 8 places, all below massif's threshold (1.00%)
+    n0: 6496 in 8 places, all below massif's threshold (1.00%)
+   n0: 15904 in 9 places, all below massif's threshold (1.00%)
+  n2: 34104 0x158664: copy_command (in /bin/bash)
+   n0: 17952 in 10 places, all below massif's threshold (1.00%)
+   n1: 16152 0x1587CA: copy_command (in /bin/bash)
+    n0: 16152 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 6 places, all below massif's threshold (1.00%)
+  n1: 15168 0x174F33: hash_insert (in /bin/bash)
+   n0: 15168 in 5 places, all below massif's threshold (1.00%)
+  n1: 9696 0x1515F1: ??? (in /bin/bash)
+   n0: 9696 in 2 places, all below massif's threshold (1.00%)
+ n0: 14254 in 38 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=46
+#-----------
+time=84971551
+mem_heap_B=696047
+mem_heap_extra_B=298489
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=87104861
+mem_heap_B=721171
+mem_heap_extra_B=311333
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=88549919
+mem_heap_B=738454
+mem_heap_extra_B=314858
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=90154915
+mem_heap_B=755059
+mem_heap_extra_B=320589
+mem_stacks_B=0
+heap_tree=detailed
+n2: 755059 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 726119 0x19007C: xmalloc (in /bin/bash)
+  n3: 137440 0x1583F8: copy_command (in /bin/bash)
+   n0: 50272 in 12 places, all below massif's threshold (1.00%)
+   n2: 43584 0x1587B8: copy_command (in /bin/bash)
+    n2: 24480 0x1587B8: copy_command (in /bin/bash)
+     n2: 16512 0x1587B8: copy_command (in /bin/bash)
+      n1: 11648 0x1587B8: copy_command (in /bin/bash)
+       n0: 11648 in 8 places, all below massif's threshold (1.00%)
+      n0: 4864 in 8 places, all below massif's threshold (1.00%)
+     n0: 7968 in 9 places, all below massif's threshold (1.00%)
+    n0: 19104 in 9 places, all below massif's threshold (1.00%)
+   n2: 43584 0x1587CA: copy_command (in /bin/bash)
+    n2: 24480 0x1587B8: copy_command (in /bin/bash)
+     n2: 16512 0x1587B8: copy_command (in /bin/bash)
+      n1: 11648 0x1587B8: copy_command (in /bin/bash)
+       n0: 11648 in 8 places, all below massif's threshold (1.00%)
+      n0: 4864 in 8 places, all below massif's threshold (1.00%)
+     n0: 7968 in 9 places, all below massif's threshold (1.00%)
+    n0: 19104 in 9 places, all below massif's threshold (1.00%)
+  n0: 102899 in 159 places, all below massif's threshold (1.00%)
+  n2: 88224 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 87584 0x14564C: make_bare_word (in /bin/bash)
+    n2: 64976 0x15826B: copy_word_list (in /bin/bash)
+     n3: 57728 0x158677: copy_command (in /bin/bash)
+      n2: 25632 0x1587CA: copy_command (in /bin/bash)
+       n1: 15088 0x1587B8: copy_command (in /bin/bash)
+        n0: 15088 in 10 places, all below massif's threshold (1.00%)
+       n0: 10544 in 8 places, all below massif's threshold (1.00%)
+      n0: 16160 in 9 places, all below massif's threshold (1.00%)
+      n1: 15936 0x1587B8: copy_command (in /bin/bash)
+       n0: 15936 in 10 places, all below massif's threshold (1.00%)
+     n0: 7248 in 8 places, all below massif's threshold (1.00%)
+    n1: 18080 0x1581E5: ??? (in /bin/bash)
+     n0: 18080 in 3 places, all below massif's threshold (1.00%)
+    n0: 4528 in 14 places, all below massif's threshold (1.00%)
+   n0: 640 in 12 places, all below massif's threshold (1.00%)
+  n2: 87568 0x195ED7: ??? (in /bin/bash)
+   n1: 83712 0x196092: source_file (in /bin/bash)
+    n1: 83712 0x1A0637: source_builtin (in /bin/bash)
+     n1: 83712 0x14A223: ??? (in /bin/bash)
+      n1: 83712 0x14C68D: ??? (in /bin/bash)
+       n1: 83712 0x14DA68: execute_command_internal (in /bin/bash)
+        n2: 83712 0x14F270: execute_command (in /bin/bash)
+         n2: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n1: 11145 0x14F026: execute_command_internal (in /bin/bash)
+          n1: 11145 0x14F270: execute_command (in /bin/bash)
+           n1: 11145 0x14E869: execute_command_internal (in /bin/bash)
+            n1: 11145 0x14F270: execute_command (in /bin/bash)
+             n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+              n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+               n1: 11145 0x195E74: ??? (in /bin/bash)
+                n1: 11145 0x196092: source_file (in /bin/bash)
+                 n1: 11145 0x1A0637: source_builtin (in /bin/bash)
+                  n1: 11145 0x14A223: ??? (in /bin/bash)
+                   n1: 11145 0x14C68D: ??? (in /bin/bash)
+                    n1: 11145 0x14DA68: execute_command_internal (in /bin/bash)
+                     n1: 11145 0x14F270: execute_command (in /bin/bash)
+                      n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                       n1: 11145 0x14F270: execute_command (in /bin/bash)
+                        n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                         n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+                          n1: 11145 0x195E74: ??? (in /bin/bash)
+                           n1: 11145 0x195FF5: maybe_execute_file (in /bin/bash)
+                            n0: 11145 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n2: 73100 0x145666: make_bare_word (in /bin/bash)
+   n2: 62410 0x15826B: copy_word_list (in /bin/bash)
+    n3: 58571 0x158677: copy_command (in /bin/bash)
+     n2: 27981 0x1587CA: copy_command (in /bin/bash)
+      n2: 16874 0x1587B8: copy_command (in /bin/bash)
+       n1: 11016 0x1587B8: copy_command (in /bin/bash)
+        n0: 11016 in 9 places, all below massif's threshold (1.00%)
+       n0: 5858 in 9 places, all below massif's threshold (1.00%)
+      n0: 11107 in 8 places, all below massif's threshold (1.00%)
+     n0: 18266 in 9 places, all below massif's threshold (1.00%)
+     n1: 12324 0x1587B8: copy_command (in /bin/bash)
+      n0: 12324 in 10 places, all below massif's threshold (1.00%)
+    n0: 3839 in 8 places, all below massif's threshold (1.00%)
+   n0: 10690 in 15 places, all below massif's threshold (1.00%)
+  n2: 65616 0x1458C8: make_word_list (in /bin/bash)
+   n2: 64976 0x15827C: copy_word_list (in /bin/bash)
+    n3: 57728 0x158677: copy_command (in /bin/bash)
+     n2: 25632 0x1587CA: copy_command (in /bin/bash)
+      n1: 15088 0x1587B8: copy_command (in /bin/bash)
+       n0: 15088 in 10 places, all below massif's threshold (1.00%)
+      n0: 10544 in 8 places, all below massif's threshold (1.00%)
+     n0: 16160 in 9 places, all below massif's threshold (1.00%)
+     n1: 15936 0x1587B8: copy_command (in /bin/bash)
+      n0: 15936 in 10 places, all below massif's threshold (1.00%)
+    n0: 7248 in 8 places, all below massif's threshold (1.00%)
+   n0: 640 in 22 places, all below massif's threshold (1.00%)
+  n3: 48560 0x1581BF: ??? (in /bin/bash)
+   n2: 20320 0x158205: ??? (in /bin/bash)
+    n1: 13760 0x158787: copy_command (in /bin/bash)
+     n0: 13760 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 14480 0x15821A: ??? (in /bin/bash)
+    n0: 14480 in 3 places, all below massif's threshold (1.00%)
+   n1: 13760 0x158787: copy_command (in /bin/bash)
+    n0: 13760 in 5 places, all below massif's threshold (1.00%)
+  n2: 43992 0x158664: copy_command (in /bin/bash)
+   n0: 23304 in 10 places, all below massif's threshold (1.00%)
+   n2: 20688 0x1587CA: copy_command (in /bin/bash)
+    n1: 11400 0x1587B8: copy_command (in /bin/bash)
+     n0: 11400 in 10 places, all below massif's threshold (1.00%)
+    n0: 9288 in 8 places, all below massif's threshold (1.00%)
+  n2: 43584 0x1587A0: copy_command (in /bin/bash)
+   n2: 24480 0x1587B8: copy_command (in /bin/bash)
+    n2: 16512 0x1587B8: copy_command (in /bin/bash)
+     n1: 11648 0x1587B8: copy_command (in /bin/bash)
+      n0: 11648 in 8 places, all below massif's threshold (1.00%)
+     n0: 4864 in 8 places, all below massif's threshold (1.00%)
+    n0: 7968 in 9 places, all below massif's threshold (1.00%)
+   n0: 19104 in 9 places, all below massif's threshold (1.00%)
+  n1: 18976 0x174A9A: hash_create (in /bin/bash)
+   n0: 18976 in 7 places, all below massif's threshold (1.00%)
+  n1: 16160 0x174F33: hash_insert (in /bin/bash)
+   n0: 16160 in 5 places, all below massif's threshold (1.00%)
+ n0: 28940 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=50
+#-----------
+time=91003785
+mem_heap_B=762329
+mem_heap_extra_B=324087
+mem_stacks_B=0
+heap_tree=detailed
+n2: 762329 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 733137 0x19007C: xmalloc (in /bin/bash)
+  n3: 139744 0x1583F8: copy_command (in /bin/bash)
+   n0: 50784 in 12 places, all below massif's threshold (1.00%)
+   n2: 44480 0x1587B8: copy_command (in /bin/bash)
+    n2: 24928 0x1587B8: copy_command (in /bin/bash)
+     n2: 16896 0x1587B8: copy_command (in /bin/bash)
+      n1: 11968 0x1587B8: copy_command (in /bin/bash)
+       n0: 11968 in 8 places, all below massif's threshold (1.00%)
+      n0: 4928 in 8 places, all below massif's threshold (1.00%)
+     n0: 8032 in 9 places, all below massif's threshold (1.00%)
+    n0: 19552 in 9 places, all below massif's threshold (1.00%)
+   n2: 44480 0x1587CA: copy_command (in /bin/bash)
+    n2: 24928 0x1587B8: copy_command (in /bin/bash)
+     n2: 16896 0x1587B8: copy_command (in /bin/bash)
+      n1: 11968 0x1587B8: copy_command (in /bin/bash)
+       n0: 11968 in 8 places, all below massif's threshold (1.00%)
+      n0: 4928 in 8 places, all below massif's threshold (1.00%)
+     n0: 8032 in 9 places, all below massif's threshold (1.00%)
+    n0: 19552 in 9 places, all below massif's threshold (1.00%)
+  n0: 102705 in 159 places, all below massif's threshold (1.00%)
+  n2: 89328 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 88688 0x14564C: make_bare_word (in /bin/bash)
+    n2: 65888 0x15826B: copy_word_list (in /bin/bash)
+     n3: 58528 0x158677: copy_command (in /bin/bash)
+      n2: 25984 0x1587CA: copy_command (in /bin/bash)
+       n1: 15216 0x1587B8: copy_command (in /bin/bash)
+        n0: 15216 in 10 places, all below massif's threshold (1.00%)
+       n0: 10768 in 8 places, all below massif's threshold (1.00%)
+      n1: 16320 0x1587B8: copy_command (in /bin/bash)
+       n0: 16320 in 10 places, all below massif's threshold (1.00%)
+      n0: 16224 in 9 places, all below massif's threshold (1.00%)
+     n0: 7360 in 8 places, all below massif's threshold (1.00%)
+    n1: 18176 0x1581E5: ??? (in /bin/bash)
+     n0: 18176 in 3 places, all below massif's threshold (1.00%)
+    n0: 4624 in 14 places, all below massif's threshold (1.00%)
+   n0: 640 in 12 places, all below massif's threshold (1.00%)
+  n2: 87568 0x195ED7: ??? (in /bin/bash)
+   n1: 83712 0x196092: source_file (in /bin/bash)
+    n1: 83712 0x1A0637: source_builtin (in /bin/bash)
+     n1: 83712 0x14A223: ??? (in /bin/bash)
+      n1: 83712 0x14C68D: ??? (in /bin/bash)
+       n1: 83712 0x14DA68: execute_command_internal (in /bin/bash)
+        n2: 83712 0x14F270: execute_command (in /bin/bash)
+         n2: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n1: 11145 0x14F026: execute_command_internal (in /bin/bash)
+          n1: 11145 0x14F270: execute_command (in /bin/bash)
+           n1: 11145 0x14E869: execute_command_internal (in /bin/bash)
+            n1: 11145 0x14F270: execute_command (in /bin/bash)
+             n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+              n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+               n1: 11145 0x195E74: ??? (in /bin/bash)
+                n1: 11145 0x196092: source_file (in /bin/bash)
+                 n1: 11145 0x1A0637: source_builtin (in /bin/bash)
+                  n1: 11145 0x14A223: ??? (in /bin/bash)
+                   n1: 11145 0x14C68D: ??? (in /bin/bash)
+                    n1: 11145 0x14DA68: execute_command_internal (in /bin/bash)
+                     n1: 11145 0x14F270: execute_command (in /bin/bash)
+                      n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                       n1: 11145 0x14F270: execute_command (in /bin/bash)
+                        n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                         n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+                          n1: 11145 0x195E74: ??? (in /bin/bash)
+                           n1: 11145 0x195FF5: maybe_execute_file (in /bin/bash)
+                            n0: 11145 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n2: 74024 0x145666: make_bare_word (in /bin/bash)
+   n2: 63137 0x15826B: copy_word_list (in /bin/bash)
+    n3: 59173 0x158677: copy_command (in /bin/bash)
+     n2: 28269 0x1587CA: copy_command (in /bin/bash)
+      n2: 17062 0x1587B8: copy_command (in /bin/bash)
+       n1: 11204 0x1587B8: copy_command (in /bin/bash)
+        n0: 11204 in 9 places, all below massif's threshold (1.00%)
+       n0: 5858 in 9 places, all below massif's threshold (1.00%)
+      n0: 11207 in 8 places, all below massif's threshold (1.00%)
+     n0: 18356 in 9 places, all below massif's threshold (1.00%)
+     n1: 12548 0x1587B8: copy_command (in /bin/bash)
+      n0: 12548 in 10 places, all below massif's threshold (1.00%)
+    n0: 3964 in 8 places, all below massif's threshold (1.00%)
+   n0: 10887 in 15 places, all below massif's threshold (1.00%)
+  n2: 66544 0x1458C8: make_word_list (in /bin/bash)
+   n2: 65888 0x15827C: copy_word_list (in /bin/bash)
+    n3: 58528 0x158677: copy_command (in /bin/bash)
+     n2: 25984 0x1587CA: copy_command (in /bin/bash)
+      n1: 15216 0x1587B8: copy_command (in /bin/bash)
+       n0: 15216 in 10 places, all below massif's threshold (1.00%)
+      n0: 10768 in 8 places, all below massif's threshold (1.00%)
+     n1: 16320 0x1587B8: copy_command (in /bin/bash)
+      n0: 16320 in 10 places, all below massif's threshold (1.00%)
+     n0: 16224 in 9 places, all below massif's threshold (1.00%)
+    n0: 7360 in 8 places, all below massif's threshold (1.00%)
+   n0: 656 in 22 places, all below massif's threshold (1.00%)
+  n3: 48800 0x1581BF: ??? (in /bin/bash)
+   n2: 20400 0x158205: ??? (in /bin/bash)
+    n1: 13840 0x158787: copy_command (in /bin/bash)
+     n0: 13840 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 14560 0x15821A: ??? (in /bin/bash)
+    n0: 14560 in 3 places, all below massif's threshold (1.00%)
+   n1: 13840 0x158787: copy_command (in /bin/bash)
+    n0: 13840 in 5 places, all below massif's threshold (1.00%)
+  n2: 44808 0x158664: copy_command (in /bin/bash)
+   n0: 23640 in 10 places, all below massif's threshold (1.00%)
+   n2: 21168 0x1587CA: copy_command (in /bin/bash)
+    n1: 11592 0x1587B8: copy_command (in /bin/bash)
+     n0: 11592 in 10 places, all below massif's threshold (1.00%)
+    n0: 9576 in 8 places, all below massif's threshold (1.00%)
+  n2: 44480 0x1587A0: copy_command (in /bin/bash)
+   n2: 24928 0x1587B8: copy_command (in /bin/bash)
+    n2: 16896 0x1587B8: copy_command (in /bin/bash)
+     n1: 11968 0x1587B8: copy_command (in /bin/bash)
+      n0: 11968 in 8 places, all below massif's threshold (1.00%)
+     n0: 4928 in 8 places, all below massif's threshold (1.00%)
+    n0: 8032 in 9 places, all below massif's threshold (1.00%)
+   n0: 19552 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16192 0x174F33: hash_insert (in /bin/bash)
+   n0: 16192 in 5 places, all below massif's threshold (1.00%)
+ n0: 29192 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=51
+#-----------
+time=92125037
+mem_heap_B=764454
+mem_heap_extra_B=325730
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=92288430
+mem_heap_B=769640
+mem_heap_extra_B=327944
+mem_stacks_B=0
+heap_tree=detailed
+n2: 769640 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 740686 0x19007C: xmalloc (in /bin/bash)
+  n3: 141728 0x1583F8: copy_command (in /bin/bash)
+   n0: 51488 in 12 places, all below massif's threshold (1.00%)
+   n2: 45120 0x1587B8: copy_command (in /bin/bash)
+    n2: 25312 0x1587B8: copy_command (in /bin/bash)
+     n2: 17152 0x1587B8: copy_command (in /bin/bash)
+      n1: 12096 0x1587B8: copy_command (in /bin/bash)
+       n0: 12096 in 8 places, all below massif's threshold (1.00%)
+      n0: 5056 in 8 places, all below massif's threshold (1.00%)
+     n0: 8160 in 9 places, all below massif's threshold (1.00%)
+    n0: 19808 in 9 places, all below massif's threshold (1.00%)
+   n2: 45120 0x1587CA: copy_command (in /bin/bash)
+    n2: 25312 0x1587B8: copy_command (in /bin/bash)
+     n2: 17152 0x1587B8: copy_command (in /bin/bash)
+      n1: 12096 0x1587B8: copy_command (in /bin/bash)
+       n0: 12096 in 8 places, all below massif's threshold (1.00%)
+      n0: 5056 in 8 places, all below massif's threshold (1.00%)
+     n0: 8160 in 9 places, all below massif's threshold (1.00%)
+    n0: 19808 in 9 places, all below massif's threshold (1.00%)
+  n0: 104081 in 159 places, all below massif's threshold (1.00%)
+  n2: 90256 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 89616 0x14564C: make_bare_word (in /bin/bash)
+    n2: 66560 0x15826B: copy_word_list (in /bin/bash)
+     n3: 59168 0x158677: copy_command (in /bin/bash)
+      n2: 26240 0x1587CA: copy_command (in /bin/bash)
+       n1: 15408 0x1587B8: copy_command (in /bin/bash)
+        n0: 15408 in 10 places, all below massif's threshold (1.00%)
+       n0: 10832 in 8 places, all below massif's threshold (1.00%)
+      n1: 16544 0x1587B8: copy_command (in /bin/bash)
+       n0: 16544 in 10 places, all below massif's threshold (1.00%)
+      n0: 16384 in 9 places, all below massif's threshold (1.00%)
+     n0: 7392 in 8 places, all below massif's threshold (1.00%)
+    n1: 18368 0x1581E5: ??? (in /bin/bash)
+     n0: 18368 in 3 places, all below massif's threshold (1.00%)
+    n0: 4688 in 14 places, all below massif's threshold (1.00%)
+   n0: 640 in 12 places, all below massif's threshold (1.00%)
+  n2: 87568 0x195ED7: ??? (in /bin/bash)
+   n1: 83712 0x196092: source_file (in /bin/bash)
+    n1: 83712 0x1A0637: source_builtin (in /bin/bash)
+     n1: 83712 0x14A223: ??? (in /bin/bash)
+      n1: 83712 0x14C68D: ??? (in /bin/bash)
+       n1: 83712 0x14DA68: execute_command_internal (in /bin/bash)
+        n2: 83712 0x14F270: execute_command (in /bin/bash)
+         n2: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n1: 11145 0x14F026: execute_command_internal (in /bin/bash)
+          n1: 11145 0x14F270: execute_command (in /bin/bash)
+           n1: 11145 0x14E869: execute_command_internal (in /bin/bash)
+            n1: 11145 0x14F270: execute_command (in /bin/bash)
+             n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+              n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+               n1: 11145 0x195E74: ??? (in /bin/bash)
+                n1: 11145 0x196092: source_file (in /bin/bash)
+                 n1: 11145 0x1A0637: source_builtin (in /bin/bash)
+                  n1: 11145 0x14A223: ??? (in /bin/bash)
+                   n1: 11145 0x14C68D: ??? (in /bin/bash)
+                    n1: 11145 0x14DA68: execute_command_internal (in /bin/bash)
+                     n1: 11145 0x14F270: execute_command (in /bin/bash)
+                      n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                       n1: 11145 0x14F270: execute_command (in /bin/bash)
+                        n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                         n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+                          n1: 11145 0x195E74: ??? (in /bin/bash)
+                           n1: 11145 0x195FF5: maybe_execute_file (in /bin/bash)
+                            n0: 11145 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n2: 74565 0x145666: make_bare_word (in /bin/bash)
+   n2: 63702 0x15826B: copy_word_list (in /bin/bash)
+    n3: 59751 0x158677: copy_command (in /bin/bash)
+     n2: 28549 0x1587CA: copy_command (in /bin/bash)
+      n2: 17310 0x1587B8: copy_command (in /bin/bash)
+       n1: 11356 0x1587B8: copy_command (in /bin/bash)
+        n0: 11356 in 9 places, all below massif's threshold (1.00%)
+       n0: 5954 in 9 places, all below massif's threshold (1.00%)
+      n0: 11239 in 8 places, all below massif's threshold (1.00%)
+     n0: 18554 in 9 places, all below massif's threshold (1.00%)
+     n1: 12648 0x1587B8: copy_command (in /bin/bash)
+      n0: 12648 in 10 places, all below massif's threshold (1.00%)
+    n0: 3951 in 8 places, all below massif's threshold (1.00%)
+   n0: 10863 in 15 places, all below massif's threshold (1.00%)
+  n2: 67216 0x1458C8: make_word_list (in /bin/bash)
+   n2: 66560 0x15827C: copy_word_list (in /bin/bash)
+    n3: 59168 0x158677: copy_command (in /bin/bash)
+     n2: 26240 0x1587CA: copy_command (in /bin/bash)
+      n1: 15408 0x1587B8: copy_command (in /bin/bash)
+       n0: 15408 in 10 places, all below massif's threshold (1.00%)
+      n0: 10832 in 8 places, all below massif's threshold (1.00%)
+     n1: 16544 0x1587B8: copy_command (in /bin/bash)
+      n0: 16544 in 10 places, all below massif's threshold (1.00%)
+     n0: 16384 in 9 places, all below massif's threshold (1.00%)
+    n0: 7392 in 8 places, all below massif's threshold (1.00%)
+   n0: 656 in 22 places, all below massif's threshold (1.00%)
+  n3: 49280 0x1581BF: ??? (in /bin/bash)
+   n2: 20560 0x158205: ??? (in /bin/bash)
+    n1: 14000 0x158787: copy_command (in /bin/bash)
+     n0: 14000 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 14720 0x15821A: ??? (in /bin/bash)
+    n0: 14720 in 3 places, all below massif's threshold (1.00%)
+   n1: 14000 0x158787: copy_command (in /bin/bash)
+    n0: 14000 in 5 places, all below massif's threshold (1.00%)
+  n2: 45480 0x158664: copy_command (in /bin/bash)
+   n0: 23928 in 10 places, all below massif's threshold (1.00%)
+   n2: 21552 0x1587CA: copy_command (in /bin/bash)
+    n1: 11880 0x1587B8: copy_command (in /bin/bash)
+     n0: 11880 in 10 places, all below massif's threshold (1.00%)
+    n0: 9672 in 8 places, all below massif's threshold (1.00%)
+  n2: 45120 0x1587A0: copy_command (in /bin/bash)
+   n2: 25312 0x1587B8: copy_command (in /bin/bash)
+    n2: 17152 0x1587B8: copy_command (in /bin/bash)
+     n1: 12096 0x1587B8: copy_command (in /bin/bash)
+      n0: 12096 in 8 places, all below massif's threshold (1.00%)
+     n0: 5056 in 8 places, all below massif's threshold (1.00%)
+    n0: 8160 in 9 places, all below massif's threshold (1.00%)
+   n0: 19808 in 9 places, all below massif's threshold (1.00%)
+  n1: 18976 0x174A9A: hash_create (in /bin/bash)
+   n0: 18976 in 7 places, all below massif's threshold (1.00%)
+  n1: 16416 0x174F33: hash_insert (in /bin/bash)
+   n0: 16416 in 5 places, all below massif's threshold (1.00%)
+ n0: 28954 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=53
+#-----------
+time=93220842
+mem_heap_B=776898
+mem_heap_extra_B=331678
+mem_stacks_B=0
+heap_tree=detailed
+n2: 776898 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 747938 0x19007C: xmalloc (in /bin/bash)
+  n3: 143712 0x1583F8: copy_command (in /bin/bash)
+   n0: 51936 in 12 places, all below massif's threshold (1.00%)
+   n2: 45888 0x1587B8: copy_command (in /bin/bash)
+    n2: 25760 0x1587B8: copy_command (in /bin/bash)
+     n2: 17472 0x1587B8: copy_command (in /bin/bash)
+      n1: 12352 0x1587B8: copy_command (in /bin/bash)
+       n0: 12352 in 8 places, all below massif's threshold (1.00%)
+      n0: 5120 in 8 places, all below massif's threshold (1.00%)
+     n0: 8288 in 9 places, all below massif's threshold (1.00%)
+    n0: 20128 in 9 places, all below massif's threshold (1.00%)
+   n2: 45888 0x1587CA: copy_command (in /bin/bash)
+    n2: 25760 0x1587B8: copy_command (in /bin/bash)
+     n2: 17472 0x1587B8: copy_command (in /bin/bash)
+      n1: 12352 0x1587B8: copy_command (in /bin/bash)
+       n0: 12352 in 8 places, all below massif's threshold (1.00%)
+      n0: 5120 in 8 places, all below massif's threshold (1.00%)
+     n0: 8288 in 9 places, all below massif's threshold (1.00%)
+    n0: 20128 in 9 places, all below massif's threshold (1.00%)
+  n0: 104610 in 159 places, all below massif's threshold (1.00%)
+  n2: 91328 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 90688 0x14564C: make_bare_word (in /bin/bash)
+    n2: 67488 0x15826B: copy_word_list (in /bin/bash)
+     n3: 59904 0x158677: copy_command (in /bin/bash)
+      n2: 26560 0x1587CA: copy_command (in /bin/bash)
+       n1: 15568 0x1587B8: copy_command (in /bin/bash)
+        n0: 15568 in 10 places, all below massif's threshold (1.00%)
+       n0: 10992 in 8 places, all below massif's threshold (1.00%)
+      n1: 16864 0x1587B8: copy_command (in /bin/bash)
+       n0: 16864 in 10 places, all below massif's threshold (1.00%)
+      n0: 16480 in 9 places, all below massif's threshold (1.00%)
+     n0: 7584 in 8 places, all below massif's threshold (1.00%)
+    n1: 18464 0x1581E5: ??? (in /bin/bash)
+     n0: 18464 in 3 places, all below massif's threshold (1.00%)
+    n0: 4736 in 14 places, all below massif's threshold (1.00%)
+   n0: 640 in 12 places, all below massif's threshold (1.00%)
+  n2: 87568 0x195ED7: ??? (in /bin/bash)
+   n1: 83712 0x196092: source_file (in /bin/bash)
+    n1: 83712 0x1A0637: source_builtin (in /bin/bash)
+     n1: 83712 0x14A223: ??? (in /bin/bash)
+      n1: 83712 0x14C68D: ??? (in /bin/bash)
+       n1: 83712 0x14DA68: execute_command_internal (in /bin/bash)
+        n2: 83712 0x14F270: execute_command (in /bin/bash)
+         n2: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n1: 11145 0x14F026: execute_command_internal (in /bin/bash)
+          n1: 11145 0x14F270: execute_command (in /bin/bash)
+           n1: 11145 0x14E869: execute_command_internal (in /bin/bash)
+            n1: 11145 0x14F270: execute_command (in /bin/bash)
+             n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+              n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+               n1: 11145 0x195E74: ??? (in /bin/bash)
+                n1: 11145 0x196092: source_file (in /bin/bash)
+                 n1: 11145 0x1A0637: source_builtin (in /bin/bash)
+                  n1: 11145 0x14A223: ??? (in /bin/bash)
+                   n1: 11145 0x14C68D: ??? (in /bin/bash)
+                    n1: 11145 0x14DA68: execute_command_internal (in /bin/bash)
+                     n1: 11145 0x14F270: execute_command (in /bin/bash)
+                      n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                       n1: 11145 0x14F270: execute_command (in /bin/bash)
+                        n1: 11145 0x14DE37: execute_command_internal (in /bin/bash)
+                         n1: 11145 0x196912: parse_and_execute (in /bin/bash)
+                          n1: 11145 0x195E74: ??? (in /bin/bash)
+                           n1: 11145 0x195FF5: maybe_execute_file (in /bin/bash)
+                            n0: 11145 0x13605A: main (in /bin/bash)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n2: 75480 0x145666: make_bare_word (in /bin/bash)
+   n2: 64562 0x15826B: copy_word_list (in /bin/bash)
+    n3: 60533 0x158677: copy_command (in /bin/bash)
+     n2: 29045 0x1587CA: copy_command (in /bin/bash)
+      n2: 17738 0x1587B8: copy_command (in /bin/bash)
+       n1: 11482 0x1587B8: copy_command (in /bin/bash)
+        n0: 11482 in 9 places, all below massif's threshold (1.00%)
+       n0: 6256 in 9 places, all below massif's threshold (1.00%)
+      n0: 11307 in 8 places, all below massif's threshold (1.00%)
+     n0: 18662 in 9 places, all below massif's threshold (1.00%)
+     n1: 12826 0x1587B8: copy_command (in /bin/bash)
+      n0: 12826 in 10 places, all below massif's threshold (1.00%)
+    n0: 4029 in 8 places, all below massif's threshold (1.00%)
+   n0: 10918 in 15 places, all below massif's threshold (1.00%)
+  n2: 68144 0x1458C8: make_word_list (in /bin/bash)
+   n2: 67488 0x15827C: copy_word_list (in /bin/bash)
+    n3: 59904 0x158677: copy_command (in /bin/bash)
+     n2: 26560 0x1587CA: copy_command (in /bin/bash)
+      n1: 15568 0x1587B8: copy_command (in /bin/bash)
+       n0: 15568 in 10 places, all below massif's threshold (1.00%)
+      n0: 10992 in 8 places, all below massif's threshold (1.00%)
+     n1: 16864 0x1587B8: copy_command (in /bin/bash)
+      n0: 16864 in 10 places, all below massif's threshold (1.00%)
+     n0: 16480 in 9 places, all below massif's threshold (1.00%)
+    n0: 7584 in 8 places, all below massif's threshold (1.00%)
+   n0: 656 in 22 places, all below massif's threshold (1.00%)
+  n3: 49520 0x1581BF: ??? (in /bin/bash)
+   n2: 20640 0x158205: ??? (in /bin/bash)
+    n1: 14080 0x158787: copy_command (in /bin/bash)
+     n0: 14080 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 14800 0x15821A: ??? (in /bin/bash)
+    n0: 14800 in 3 places, all below massif's threshold (1.00%)
+   n1: 14080 0x158787: copy_command (in /bin/bash)
+    n0: 14080 in 5 places, all below massif's threshold (1.00%)
+  n3: 46200 0x158664: copy_command (in /bin/bash)
+   n2: 21936 0x1587CA: copy_command (in /bin/bash)
+    n1: 12072 0x1587B8: copy_command (in /bin/bash)
+     n0: 12072 in 10 places, all below massif's threshold (1.00%)
+    n0: 9864 in 8 places, all below massif's threshold (1.00%)
+   n0: 13152 in 9 places, all below massif's threshold (1.00%)
+   n1: 11112 0x1587B8: copy_command (in /bin/bash)
+    n0: 11112 in 10 places, all below massif's threshold (1.00%)
+  n2: 45888 0x1587A0: copy_command (in /bin/bash)
+   n2: 25760 0x1587B8: copy_command (in /bin/bash)
+    n2: 17472 0x1587B8: copy_command (in /bin/bash)
+     n1: 12352 0x1587B8: copy_command (in /bin/bash)
+      n0: 12352 in 8 places, all below massif's threshold (1.00%)
+     n0: 5120 in 8 places, all below massif's threshold (1.00%)
+    n0: 8288 in 9 places, all below massif's threshold (1.00%)
+   n0: 20128 in 9 places, all below massif's threshold (1.00%)
+  n1: 18976 0x174A9A: hash_create (in /bin/bash)
+   n0: 18976 in 7 places, all below massif's threshold (1.00%)
+  n1: 16512 0x174F33: hash_insert (in /bin/bash)
+   n0: 16512 in 5 places, all below massif's threshold (1.00%)
+ n0: 28960 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=94343103
+mem_heap_B=776089
+mem_heap_extra_B=331871
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=94677484
+mem_heap_B=784740
+mem_heap_extra_B=335692
+mem_stacks_B=0
+heap_tree=detailed
+n2: 784740 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 755768 0x19007C: xmalloc (in /bin/bash)
+  n3: 146208 0x1583F8: copy_command (in /bin/bash)
+   n0: 52640 in 12 places, all below massif's threshold (1.00%)
+   n2: 46784 0x1587B8: copy_command (in /bin/bash)
+    n2: 26336 0x1587B8: copy_command (in /bin/bash)
+     n2: 17856 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5248 in 8 places, all below massif's threshold (1.00%)
+     n0: 8480 in 9 places, all below massif's threshold (1.00%)
+    n0: 20448 in 9 places, all below massif's threshold (1.00%)
+   n2: 46784 0x1587CA: copy_command (in /bin/bash)
+    n2: 26336 0x1587B8: copy_command (in /bin/bash)
+     n2: 17856 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5248 in 8 places, all below massif's threshold (1.00%)
+     n0: 8480 in 9 places, all below massif's threshold (1.00%)
+    n0: 20448 in 9 places, all below massif's threshold (1.00%)
+  n0: 104568 in 159 places, all below massif's threshold (1.00%)
+  n2: 92448 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91808 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68400 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60768 0x158677: copy_command (in /bin/bash)
+      n2: 26912 0x1587CA: copy_command (in /bin/bash)
+       n1: 15792 0x1587B8: copy_command (in /bin/bash)
+        n0: 15792 in 10 places, all below massif's threshold (1.00%)
+       n0: 11120 in 8 places, all below massif's threshold (1.00%)
+      n1: 17184 0x1587B8: copy_command (in /bin/bash)
+       n0: 17184 in 10 places, all below massif's threshold (1.00%)
+      n0: 16672 in 9 places, all below massif's threshold (1.00%)
+     n0: 7632 in 8 places, all below massif's threshold (1.00%)
+    n1: 18656 0x1581E5: ??? (in /bin/bash)
+     n0: 18656 in 3 places, all below massif's threshold (1.00%)
+    n0: 4752 in 14 places, all below massif's threshold (1.00%)
+   n0: 640 in 12 places, all below massif's threshold (1.00%)
+  n2: 87568 0x195ED7: ??? (in /bin/bash)
+   n1: 83712 0x196092: source_file (in /bin/bash)
+    n1: 83712 0x1A0637: source_builtin (in /bin/bash)
+     n1: 83712 0x14A223: ??? (in /bin/bash)
+      n1: 83712 0x14C68D: ??? (in /bin/bash)
+       n1: 83712 0x14DA68: execute_command_internal (in /bin/bash)
+        n2: 83712 0x14F270: execute_command (in /bin/bash)
+         n2: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+          n1: 72567 0x14F270: execute_command (in /bin/bash)
+           n1: 72567 0x14DE37: execute_command_internal (in /bin/bash)
+            n1: 72567 0x196912: parse_and_execute (in /bin/bash)
+             n1: 72567 0x195E74: ??? (in /bin/bash)
+              n1: 72567 0x195FF5: maybe_execute_file (in /bin/bash)
+               n0: 72567 0x13605A: main (in /bin/bash)
+          n0: 0 in 1 place, below massif's threshold (1.00%)
+         n0: 11145 in 1 place, below massif's threshold (1.00%)
+   n0: 3856 in 1 place, below massif's threshold (1.00%)
+  n2: 76504 0x145666: make_bare_word (in /bin/bash)
+   n2: 65496 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61453 0x158677: copy_command (in /bin/bash)
+     n2: 29575 0x1587CA: copy_command (in /bin/bash)
+      n2: 18214 0x1587B8: copy_command (in /bin/bash)
+       n1: 11634 0x1587B8: copy_command (in /bin/bash)
+        n0: 11634 in 9 places, all below massif's threshold (1.00%)
+       n0: 6580 in 9 places, all below massif's threshold (1.00%)
+      n0: 11361 in 8 places, all below massif's threshold (1.00%)
+     n0: 18878 in 9 places, all below massif's threshold (1.00%)
+     n1: 13000 0x1587B8: copy_command (in /bin/bash)
+      n0: 13000 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 11008 in 15 places, all below massif's threshold (1.00%)
+  n2: 69008 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68400 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60768 0x158677: copy_command (in /bin/bash)
+     n2: 26912 0x1587CA: copy_command (in /bin/bash)
+      n1: 15792 0x1587B8: copy_command (in /bin/bash)
+       n0: 15792 in 10 places, all below massif's threshold (1.00%)
+      n0: 11120 in 8 places, all below massif's threshold (1.00%)
+     n1: 17184 0x1587B8: copy_command (in /bin/bash)
+      n0: 17184 in 10 places, all below massif's threshold (1.00%)
+     n0: 16672 in 9 places, all below massif's threshold (1.00%)
+    n0: 7632 in 8 places, all below massif's threshold (1.00%)
+   n0: 608 in 22 places, all below massif's threshold (1.00%)
+  n3: 50000 0x1581BF: ??? (in /bin/bash)
+   n2: 20800 0x158205: ??? (in /bin/bash)
+    n1: 14240 0x158787: copy_command (in /bin/bash)
+     n0: 14240 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 14960 0x15821A: ??? (in /bin/bash)
+    n0: 14960 in 3 places, all below massif's threshold (1.00%)
+   n1: 14240 0x158787: copy_command (in /bin/bash)
+    n0: 14240 in 5 places, all below massif's threshold (1.00%)
+  n3: 47064 0x158664: copy_command (in /bin/bash)
+   n2: 22368 0x1587CA: copy_command (in /bin/bash)
+    n1: 12360 0x1587B8: copy_command (in /bin/bash)
+     n0: 12360 in 10 places, all below massif's threshold (1.00%)
+    n0: 10008 in 8 places, all below massif's threshold (1.00%)
+   n0: 13344 in 9 places, all below massif's threshold (1.00%)
+   n1: 11352 0x1587B8: copy_command (in /bin/bash)
+    n0: 11352 in 10 places, all below massif's threshold (1.00%)
+  n2: 46784 0x1587A0: copy_command (in /bin/bash)
+   n2: 26336 0x1587B8: copy_command (in /bin/bash)
+    n2: 17856 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5248 in 8 places, all below massif's threshold (1.00%)
+    n0: 8480 in 9 places, all below massif's threshold (1.00%)
+   n0: 20448 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16672 0x174F33: hash_insert (in /bin/bash)
+   n0: 16672 in 5 places, all below massif's threshold (1.00%)
+ n0: 28972 in 48 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=95796607
+mem_heap_B=768497
+mem_heap_extra_B=333671
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=96760848
+mem_heap_B=784640
+mem_heap_extra_B=348144
+mem_stacks_B=0
+heap_tree=detailed
+n2: 784640 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 735793 0x19007C: xmalloc (in /bin/bash)
+  n3: 146464 0x1583F8: copy_command (in /bin/bash)
+   n0: 52768 in 12 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587B8: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587CA: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n0: 135871 in 174 places, all below massif's threshold (1.00%)
+  n2: 91696 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91696 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68384 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60752 0x158677: copy_command (in /bin/bash)
+      n2: 26944 0x1587CA: copy_command (in /bin/bash)
+       n1: 15856 0x1587B8: copy_command (in /bin/bash)
+        n0: 15856 in 10 places, all below massif's threshold (1.00%)
+       n0: 11088 in 8 places, all below massif's threshold (1.00%)
+      n1: 17088 0x1587B8: copy_command (in /bin/bash)
+       n0: 17088 in 10 places, all below massif's threshold (1.00%)
+      n0: 16720 in 9 places, all below massif's threshold (1.00%)
+     n0: 7632 in 8 places, all below massif's threshold (1.00%)
+    n1: 18752 0x1581E5: ??? (in /bin/bash)
+     n0: 18752 in 3 places, all below massif's threshold (1.00%)
+    n0: 4560 in 14 places, all below massif's threshold (1.00%)
+   n0: 0 in 12 places, all below massif's threshold (1.00%)
+  n2: 76498 0x145666: make_bare_word (in /bin/bash)
+   n2: 65569 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61526 0x158677: copy_command (in /bin/bash)
+     n2: 29617 0x1587CA: copy_command (in /bin/bash)
+      n2: 18274 0x1587B8: copy_command (in /bin/bash)
+       n1: 11660 0x1587B8: copy_command (in /bin/bash)
+        n0: 11660 in 9 places, all below massif's threshold (1.00%)
+       n0: 6614 in 9 places, all below massif's threshold (1.00%)
+      n0: 11343 in 8 places, all below massif's threshold (1.00%)
+     n0: 18935 in 9 places, all below massif's threshold (1.00%)
+     n1: 12974 0x1587B8: copy_command (in /bin/bash)
+      n0: 12974 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 10929 in 15 places, all below massif's threshold (1.00%)
+  n2: 68384 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68384 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60752 0x158677: copy_command (in /bin/bash)
+     n2: 26944 0x1587CA: copy_command (in /bin/bash)
+      n1: 15856 0x1587B8: copy_command (in /bin/bash)
+       n0: 15856 in 10 places, all below massif's threshold (1.00%)
+      n0: 11088 in 8 places, all below massif's threshold (1.00%)
+     n1: 17088 0x1587B8: copy_command (in /bin/bash)
+      n0: 17088 in 10 places, all below massif's threshold (1.00%)
+     n0: 16720 in 9 places, all below massif's threshold (1.00%)
+    n0: 7632 in 8 places, all below massif's threshold (1.00%)
+   n0: 0 in 22 places, all below massif's threshold (1.00%)
+  n3: 50240 0x1581BF: ??? (in /bin/bash)
+   n2: 20880 0x158205: ??? (in /bin/bash)
+    n1: 14320 0x158787: copy_command (in /bin/bash)
+     n0: 14320 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 15040 0x15821A: ??? (in /bin/bash)
+    n0: 15040 in 3 places, all below massif's threshold (1.00%)
+   n1: 14320 0x158787: copy_command (in /bin/bash)
+    n0: 14320 in 5 places, all below massif's threshold (1.00%)
+  n2: 47136 0x158664: copy_command (in /bin/bash)
+   n0: 24720 in 10 places, all below massif's threshold (1.00%)
+   n2: 22416 0x1587CA: copy_command (in /bin/bash)
+    n1: 12456 0x1587B8: copy_command (in /bin/bash)
+     n0: 12456 in 10 places, all below massif's threshold (1.00%)
+    n0: 9960 in 8 places, all below massif's threshold (1.00%)
+  n2: 46848 0x1587A0: copy_command (in /bin/bash)
+   n2: 26464 0x1587B8: copy_command (in /bin/bash)
+    n2: 17920 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5312 in 8 places, all below massif's threshold (1.00%)
+    n0: 8544 in 9 places, all below massif's threshold (1.00%)
+   n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n1: 37008 0x1BA89C: rl_make_bare_keymap (in /bin/bash)
+   n2: 37008 0x1C1285: rl_generic_bind (in /bin/bash)
+    n1: 20560 0x1CE780: ??? (in /bin/bash)
+     n0: 20560 in 3 places, all below massif's threshold (1.00%)
+    n1: 16448 0x1CE7F2: ??? (in /bin/bash)
+     n0: 16448 in 2 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16704 0x174F33: hash_insert (in /bin/bash)
+   n0: 16704 in 5 places, all below massif's threshold (1.00%)
+ n0: 48847 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=58
+#-----------
+time=96869469
+mem_heap_B=797540
+mem_heap_extra_B=349596
+mem_stacks_B=0
+heap_tree=detailed
+n2: 797540 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 747157 0x19007C: xmalloc (in /bin/bash)
+  n3: 146464 0x1583F8: copy_command (in /bin/bash)
+   n0: 52768 in 12 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587B8: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587CA: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n0: 138979 in 185 places, all below massif's threshold (1.00%)
+  n2: 91712 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91696 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68384 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60752 0x158677: copy_command (in /bin/bash)
+      n2: 26944 0x1587CA: copy_command (in /bin/bash)
+       n1: 15856 0x1587B8: copy_command (in /bin/bash)
+        n0: 15856 in 10 places, all below massif's threshold (1.00%)
+       n0: 11088 in 8 places, all below massif's threshold (1.00%)
+      n1: 17088 0x1587B8: copy_command (in /bin/bash)
+       n0: 17088 in 10 places, all below massif's threshold (1.00%)
+      n0: 16720 in 9 places, all below massif's threshold (1.00%)
+     n0: 7632 in 8 places, all below massif's threshold (1.00%)
+    n1: 18752 0x1581E5: ??? (in /bin/bash)
+     n0: 18752 in 3 places, all below massif's threshold (1.00%)
+    n0: 4560 in 14 places, all below massif's threshold (1.00%)
+   n0: 16 in 12 places, all below massif's threshold (1.00%)
+  n2: 76498 0x145666: make_bare_word (in /bin/bash)
+   n2: 65569 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61526 0x158677: copy_command (in /bin/bash)
+     n2: 29617 0x1587CA: copy_command (in /bin/bash)
+      n2: 18274 0x1587B8: copy_command (in /bin/bash)
+       n1: 11660 0x1587B8: copy_command (in /bin/bash)
+        n0: 11660 in 9 places, all below massif's threshold (1.00%)
+       n0: 6614 in 9 places, all below massif's threshold (1.00%)
+      n0: 11343 in 8 places, all below massif's threshold (1.00%)
+     n0: 18935 in 9 places, all below massif's threshold (1.00%)
+     n1: 12974 0x1587B8: copy_command (in /bin/bash)
+      n0: 12974 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 10929 in 15 places, all below massif's threshold (1.00%)
+  n2: 68400 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68384 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60752 0x158677: copy_command (in /bin/bash)
+     n2: 26944 0x1587CA: copy_command (in /bin/bash)
+      n1: 15856 0x1587B8: copy_command (in /bin/bash)
+       n0: 15856 in 10 places, all below massif's threshold (1.00%)
+      n0: 11088 in 8 places, all below massif's threshold (1.00%)
+     n1: 17088 0x1587B8: copy_command (in /bin/bash)
+      n0: 17088 in 10 places, all below massif's threshold (1.00%)
+     n0: 16720 in 9 places, all below massif's threshold (1.00%)
+    n0: 7632 in 8 places, all below massif's threshold (1.00%)
+   n0: 16 in 22 places, all below massif's threshold (1.00%)
+  n3: 50240 0x1581BF: ??? (in /bin/bash)
+   n2: 20880 0x158205: ??? (in /bin/bash)
+    n1: 14320 0x158787: copy_command (in /bin/bash)
+     n0: 14320 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 15040 0x15821A: ??? (in /bin/bash)
+    n0: 15040 in 3 places, all below massif's threshold (1.00%)
+   n1: 14320 0x158787: copy_command (in /bin/bash)
+    n0: 14320 in 5 places, all below massif's threshold (1.00%)
+  n2: 47136 0x158664: copy_command (in /bin/bash)
+   n0: 24720 in 10 places, all below massif's threshold (1.00%)
+   n2: 22416 0x1587CA: copy_command (in /bin/bash)
+    n1: 12456 0x1587B8: copy_command (in /bin/bash)
+     n0: 12456 in 10 places, all below massif's threshold (1.00%)
+    n0: 9960 in 8 places, all below massif's threshold (1.00%)
+  n2: 46848 0x1587A0: copy_command (in /bin/bash)
+   n2: 26464 0x1587B8: copy_command (in /bin/bash)
+    n2: 17920 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5312 in 8 places, all below massif's threshold (1.00%)
+    n0: 8544 in 9 places, all below massif's threshold (1.00%)
+   n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n1: 45232 0x1BA89C: rl_make_bare_keymap (in /bin/bash)
+   n2: 45232 0x1C1285: rl_generic_bind (in /bin/bash)
+    n1: 24672 0x1CE7F2: ??? (in /bin/bash)
+     n0: 24672 in 3 places, all below massif's threshold (1.00%)
+    n1: 20560 0x1CE780: ??? (in /bin/bash)
+     n0: 20560 in 3 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16704 0x174F33: hash_insert (in /bin/bash)
+   n0: 16704 in 5 places, all below massif's threshold (1.00%)
+ n0: 50383 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=59
+#-----------
+time=96907172
+mem_heap_B=811637
+mem_heap_extra_B=349651
+mem_stacks_B=0
+heap_tree=detailed
+n2: 811637 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 761254 0x19007C: xmalloc (in /bin/bash)
+  n3: 146464 0x1583F8: copy_command (in /bin/bash)
+   n0: 52768 in 12 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587B8: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587CA: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n0: 140740 in 189 places, all below massif's threshold (1.00%)
+  n2: 91712 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91696 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68384 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60752 0x158677: copy_command (in /bin/bash)
+      n2: 26944 0x1587CA: copy_command (in /bin/bash)
+       n1: 15856 0x1587B8: copy_command (in /bin/bash)
+        n0: 15856 in 10 places, all below massif's threshold (1.00%)
+       n0: 11088 in 8 places, all below massif's threshold (1.00%)
+      n1: 17088 0x1587B8: copy_command (in /bin/bash)
+       n0: 17088 in 10 places, all below massif's threshold (1.00%)
+      n0: 16720 in 9 places, all below massif's threshold (1.00%)
+     n0: 7632 in 8 places, all below massif's threshold (1.00%)
+    n1: 18752 0x1581E5: ??? (in /bin/bash)
+     n0: 18752 in 3 places, all below massif's threshold (1.00%)
+    n0: 4560 in 14 places, all below massif's threshold (1.00%)
+   n0: 16 in 12 places, all below massif's threshold (1.00%)
+  n2: 76498 0x145666: make_bare_word (in /bin/bash)
+   n2: 65569 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61526 0x158677: copy_command (in /bin/bash)
+     n2: 29617 0x1587CA: copy_command (in /bin/bash)
+      n2: 18274 0x1587B8: copy_command (in /bin/bash)
+       n1: 11660 0x1587B8: copy_command (in /bin/bash)
+        n0: 11660 in 9 places, all below massif's threshold (1.00%)
+       n0: 6614 in 9 places, all below massif's threshold (1.00%)
+      n0: 11343 in 8 places, all below massif's threshold (1.00%)
+     n0: 18935 in 9 places, all below massif's threshold (1.00%)
+     n1: 12974 0x1587B8: copy_command (in /bin/bash)
+      n0: 12974 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 10929 in 15 places, all below massif's threshold (1.00%)
+  n2: 68400 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68384 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60752 0x158677: copy_command (in /bin/bash)
+     n2: 26944 0x1587CA: copy_command (in /bin/bash)
+      n1: 15856 0x1587B8: copy_command (in /bin/bash)
+       n0: 15856 in 10 places, all below massif's threshold (1.00%)
+      n0: 11088 in 8 places, all below massif's threshold (1.00%)
+     n1: 17088 0x1587B8: copy_command (in /bin/bash)
+      n0: 17088 in 10 places, all below massif's threshold (1.00%)
+     n0: 16720 in 9 places, all below massif's threshold (1.00%)
+    n0: 7632 in 8 places, all below massif's threshold (1.00%)
+   n0: 16 in 22 places, all below massif's threshold (1.00%)
+  n1: 57568 0x1BA89C: rl_make_bare_keymap (in /bin/bash)
+   n3: 57568 0x1C1285: rl_generic_bind (in /bin/bash)
+    n1: 24672 0x1CE7F2: ??? (in /bin/bash)
+     n0: 24672 in 3 places, all below massif's threshold (1.00%)
+    n1: 20560 0x1CE780: ??? (in /bin/bash)
+     n0: 20560 in 3 places, all below massif's threshold (1.00%)
+    n1: 12336 0x1C336A: rl_parse_and_bind (in /bin/bash)
+     n1: 12336 0x1C3570: ??? (in /bin/bash)
+      n1: 12336 0x1B6AF6: rl_initialize (in /bin/bash)
+       n1: 12336 0x187CF3: initialize_readline (in /bin/bash)
+        n1: 12336 0x137C83: ??? (in /bin/bash)
+         n1: 12336 0x139E51: ??? (in /bin/bash)
+          n1: 12336 0x13D1F8: ??? (in /bin/bash)
+           n1: 12336 0x140B06: yyparse (in /bin/bash)
+            n1: 12336 0x137314: parse_command (in /bin/bash)
+             n1: 12336 0x137422: read_command (in /bin/bash)
+              n1: 12336 0x1376A2: reader_loop (in /bin/bash)
+               n0: 12336 0x135D6A: main (in /bin/bash)
+  n3: 50240 0x1581BF: ??? (in /bin/bash)
+   n2: 20880 0x158205: ??? (in /bin/bash)
+    n1: 14320 0x158787: copy_command (in /bin/bash)
+     n0: 14320 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 15040 0x15821A: ??? (in /bin/bash)
+    n0: 15040 in 3 places, all below massif's threshold (1.00%)
+   n1: 14320 0x158787: copy_command (in /bin/bash)
+    n0: 14320 in 5 places, all below massif's threshold (1.00%)
+  n2: 47136 0x158664: copy_command (in /bin/bash)
+   n0: 24720 in 10 places, all below massif's threshold (1.00%)
+   n2: 22416 0x1587CA: copy_command (in /bin/bash)
+    n1: 12456 0x1587B8: copy_command (in /bin/bash)
+     n0: 12456 in 10 places, all below massif's threshold (1.00%)
+    n0: 9960 in 8 places, all below massif's threshold (1.00%)
+  n2: 46848 0x1587A0: copy_command (in /bin/bash)
+   n2: 26464 0x1587B8: copy_command (in /bin/bash)
+    n2: 17920 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5312 in 8 places, all below massif's threshold (1.00%)
+    n0: 8544 in 9 places, all below massif's threshold (1.00%)
+   n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16704 0x174F33: hash_insert (in /bin/bash)
+   n0: 16704 in 5 places, all below massif's threshold (1.00%)
+ n0: 50383 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=60
+#-----------
+time=96928461
+mem_heap_B=823973
+mem_heap_extra_B=349675
+mem_stacks_B=0
+heap_tree=detailed
+n2: 823973 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 773590 0x19007C: xmalloc (in /bin/bash)
+  n3: 146464 0x1583F8: copy_command (in /bin/bash)
+   n0: 52768 in 12 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587B8: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587CA: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n0: 140740 in 189 places, all below massif's threshold (1.00%)
+  n2: 91712 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91696 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68384 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60752 0x158677: copy_command (in /bin/bash)
+      n2: 26944 0x1587CA: copy_command (in /bin/bash)
+       n1: 15856 0x1587B8: copy_command (in /bin/bash)
+        n0: 15856 in 10 places, all below massif's threshold (1.00%)
+       n0: 11088 in 8 places, all below massif's threshold (1.00%)
+      n1: 17088 0x1587B8: copy_command (in /bin/bash)
+       n0: 17088 in 10 places, all below massif's threshold (1.00%)
+      n0: 16720 in 9 places, all below massif's threshold (1.00%)
+     n0: 7632 in 8 places, all below massif's threshold (1.00%)
+    n1: 18752 0x1581E5: ??? (in /bin/bash)
+     n0: 18752 in 3 places, all below massif's threshold (1.00%)
+    n0: 4560 in 14 places, all below massif's threshold (1.00%)
+   n0: 16 in 12 places, all below massif's threshold (1.00%)
+  n2: 76498 0x145666: make_bare_word (in /bin/bash)
+   n2: 65569 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61526 0x158677: copy_command (in /bin/bash)
+     n2: 29617 0x1587CA: copy_command (in /bin/bash)
+      n1: 18274 0x1587B8: copy_command (in /bin/bash)
+       n0: 18274 in 10 places, all below massif's threshold (1.00%)
+      n0: 11343 in 8 places, all below massif's threshold (1.00%)
+     n0: 18935 in 9 places, all below massif's threshold (1.00%)
+     n1: 12974 0x1587B8: copy_command (in /bin/bash)
+      n0: 12974 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 10929 in 15 places, all below massif's threshold (1.00%)
+  n1: 69904 0x1BA89C: rl_make_bare_keymap (in /bin/bash)
+   n3: 69904 0x1C1285: rl_generic_bind (in /bin/bash)
+    n1: 24672 0x1C336A: rl_parse_and_bind (in /bin/bash)
+     n1: 24672 0x1C3570: ??? (in /bin/bash)
+      n1: 24672 0x1B6AF6: rl_initialize (in /bin/bash)
+       n1: 24672 0x187CF3: initialize_readline (in /bin/bash)
+        n1: 24672 0x137C83: ??? (in /bin/bash)
+         n1: 24672 0x139E51: ??? (in /bin/bash)
+          n1: 24672 0x13D1F8: ??? (in /bin/bash)
+           n1: 24672 0x140B06: yyparse (in /bin/bash)
+            n1: 24672 0x137314: parse_command (in /bin/bash)
+             n1: 24672 0x137422: read_command (in /bin/bash)
+              n1: 24672 0x1376A2: reader_loop (in /bin/bash)
+               n0: 24672 0x135D6A: main (in /bin/bash)
+    n1: 24672 0x1CE7F2: ??? (in /bin/bash)
+     n0: 24672 in 3 places, all below massif's threshold (1.00%)
+    n1: 20560 0x1CE780: ??? (in /bin/bash)
+     n0: 20560 in 3 places, all below massif's threshold (1.00%)
+  n2: 68400 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68384 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60752 0x158677: copy_command (in /bin/bash)
+     n2: 26944 0x1587CA: copy_command (in /bin/bash)
+      n1: 15856 0x1587B8: copy_command (in /bin/bash)
+       n0: 15856 in 10 places, all below massif's threshold (1.00%)
+      n0: 11088 in 8 places, all below massif's threshold (1.00%)
+     n1: 17088 0x1587B8: copy_command (in /bin/bash)
+      n0: 17088 in 10 places, all below massif's threshold (1.00%)
+     n0: 16720 in 9 places, all below massif's threshold (1.00%)
+    n0: 7632 in 8 places, all below massif's threshold (1.00%)
+   n0: 16 in 22 places, all below massif's threshold (1.00%)
+  n3: 50240 0x1581BF: ??? (in /bin/bash)
+   n2: 20880 0x158205: ??? (in /bin/bash)
+    n1: 14320 0x158787: copy_command (in /bin/bash)
+     n0: 14320 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 15040 0x15821A: ??? (in /bin/bash)
+    n0: 15040 in 3 places, all below massif's threshold (1.00%)
+   n1: 14320 0x158787: copy_command (in /bin/bash)
+    n0: 14320 in 5 places, all below massif's threshold (1.00%)
+  n2: 47136 0x158664: copy_command (in /bin/bash)
+   n0: 24720 in 10 places, all below massif's threshold (1.00%)
+   n2: 22416 0x1587CA: copy_command (in /bin/bash)
+    n1: 12456 0x1587B8: copy_command (in /bin/bash)
+     n0: 12456 in 10 places, all below massif's threshold (1.00%)
+    n0: 9960 in 8 places, all below massif's threshold (1.00%)
+  n2: 46848 0x1587A0: copy_command (in /bin/bash)
+   n2: 26464 0x1587B8: copy_command (in /bin/bash)
+    n2: 17920 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5312 in 8 places, all below massif's threshold (1.00%)
+    n0: 8544 in 9 places, all below massif's threshold (1.00%)
+   n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16704 0x174F33: hash_insert (in /bin/bash)
+   n0: 16704 in 5 places, all below massif's threshold (1.00%)
+ n0: 50383 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=61
+#-----------
+time=96958316
+mem_heap_B=838666
+mem_heap_extra_B=349670
+mem_stacks_B=0
+heap_tree=detailed
+n2: 838666 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 788283 0x19007C: xmalloc (in /bin/bash)
+  n3: 146464 0x1583F8: copy_command (in /bin/bash)
+   n0: 52768 in 12 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587B8: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587CA: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n0: 138985 in 190 places, all below massif's threshold (1.00%)
+  n2: 91712 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91696 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68384 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60752 0x158677: copy_command (in /bin/bash)
+      n2: 26944 0x1587CA: copy_command (in /bin/bash)
+       n1: 15856 0x1587B8: copy_command (in /bin/bash)
+        n0: 15856 in 10 places, all below massif's threshold (1.00%)
+       n0: 11088 in 8 places, all below massif's threshold (1.00%)
+      n1: 17088 0x1587B8: copy_command (in /bin/bash)
+       n0: 17088 in 10 places, all below massif's threshold (1.00%)
+      n0: 16720 in 9 places, all below massif's threshold (1.00%)
+     n0: 7632 in 8 places, all below massif's threshold (1.00%)
+    n1: 18752 0x1581E5: ??? (in /bin/bash)
+     n0: 18752 in 3 places, all below massif's threshold (1.00%)
+    n0: 4560 in 14 places, all below massif's threshold (1.00%)
+   n0: 16 in 12 places, all below massif's threshold (1.00%)
+  n1: 86352 0x1BA89C: rl_make_bare_keymap (in /bin/bash)
+   n4: 86352 0x1C1285: rl_generic_bind (in /bin/bash)
+    n1: 32896 0x1C336A: rl_parse_and_bind (in /bin/bash)
+     n1: 32896 0x1C3570: ??? (in /bin/bash)
+      n1: 32896 0x1B6AF6: rl_initialize (in /bin/bash)
+       n1: 32896 0x187CF3: initialize_readline (in /bin/bash)
+        n1: 32896 0x137C83: ??? (in /bin/bash)
+         n1: 32896 0x139E51: ??? (in /bin/bash)
+          n1: 32896 0x13D1F8: ??? (in /bin/bash)
+           n1: 32896 0x140B06: yyparse (in /bin/bash)
+            n1: 32896 0x137314: parse_command (in /bin/bash)
+             n1: 32896 0x137422: read_command (in /bin/bash)
+              n1: 32896 0x1376A2: reader_loop (in /bin/bash)
+               n0: 32896 0x135D6A: main (in /bin/bash)
+    n1: 24672 0x1CE7F2: ??? (in /bin/bash)
+     n0: 24672 in 3 places, all below massif's threshold (1.00%)
+    n1: 20560 0x1CE780: ??? (in /bin/bash)
+     n0: 20560 in 3 places, all below massif's threshold (1.00%)
+    n0: 8224 in 1 place, below massif's threshold (1.00%)
+  n2: 76498 0x145666: make_bare_word (in /bin/bash)
+   n2: 65569 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61526 0x158677: copy_command (in /bin/bash)
+     n2: 29617 0x1587CA: copy_command (in /bin/bash)
+      n1: 18274 0x1587B8: copy_command (in /bin/bash)
+       n0: 18274 in 10 places, all below massif's threshold (1.00%)
+      n0: 11343 in 8 places, all below massif's threshold (1.00%)
+     n0: 18935 in 9 places, all below massif's threshold (1.00%)
+     n1: 12974 0x1587B8: copy_command (in /bin/bash)
+      n0: 12974 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 10929 in 15 places, all below massif's threshold (1.00%)
+  n2: 68400 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68384 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60752 0x158677: copy_command (in /bin/bash)
+     n2: 26944 0x1587CA: copy_command (in /bin/bash)
+      n1: 15856 0x1587B8: copy_command (in /bin/bash)
+       n0: 15856 in 10 places, all below massif's threshold (1.00%)
+      n0: 11088 in 8 places, all below massif's threshold (1.00%)
+     n1: 17088 0x1587B8: copy_command (in /bin/bash)
+      n0: 17088 in 10 places, all below massif's threshold (1.00%)
+     n0: 16720 in 9 places, all below massif's threshold (1.00%)
+    n0: 7632 in 8 places, all below massif's threshold (1.00%)
+   n0: 16 in 22 places, all below massif's threshold (1.00%)
+  n3: 50240 0x1581BF: ??? (in /bin/bash)
+   n2: 20880 0x158205: ??? (in /bin/bash)
+    n1: 14320 0x158787: copy_command (in /bin/bash)
+     n0: 14320 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 15040 0x15821A: ??? (in /bin/bash)
+    n0: 15040 in 3 places, all below massif's threshold (1.00%)
+   n1: 14320 0x158787: copy_command (in /bin/bash)
+    n0: 14320 in 5 places, all below massif's threshold (1.00%)
+  n2: 47136 0x158664: copy_command (in /bin/bash)
+   n0: 24720 in 10 places, all below massif's threshold (1.00%)
+   n2: 22416 0x1587CA: copy_command (in /bin/bash)
+    n1: 12456 0x1587B8: copy_command (in /bin/bash)
+     n0: 12456 in 10 places, all below massif's threshold (1.00%)
+    n0: 9960 in 8 places, all below massif's threshold (1.00%)
+  n2: 46848 0x1587A0: copy_command (in /bin/bash)
+   n2: 26464 0x1587B8: copy_command (in /bin/bash)
+    n2: 17920 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5312 in 8 places, all below massif's threshold (1.00%)
+    n0: 8544 in 9 places, all below massif's threshold (1.00%)
+   n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16704 0x174F33: hash_insert (in /bin/bash)
+   n0: 16704 in 5 places, all below massif's threshold (1.00%)
+ n0: 50383 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=62
+#-----------
+time=96962811
+mem_heap_B=851002
+mem_heap_extra_B=349694
+mem_stacks_B=0
+heap_tree=detailed
+n2: 851002 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 800619 0x19007C: xmalloc (in /bin/bash)
+  n3: 146464 0x1583F8: copy_command (in /bin/bash)
+   n0: 52768 in 12 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587B8: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587CA: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n0: 138985 in 190 places, all below massif's threshold (1.00%)
+  n1: 98688 0x1BA89C: rl_make_bare_keymap (in /bin/bash)
+   n5: 98688 0x1C1285: rl_generic_bind (in /bin/bash)
+    n1: 32896 0x1C336A: rl_parse_and_bind (in /bin/bash)
+     n1: 32896 0x1C3570: ??? (in /bin/bash)
+      n1: 32896 0x1B6AF6: rl_initialize (in /bin/bash)
+       n1: 32896 0x187CF3: initialize_readline (in /bin/bash)
+        n1: 32896 0x137C83: ??? (in /bin/bash)
+         n1: 32896 0x139E51: ??? (in /bin/bash)
+          n1: 32896 0x13D1F8: ??? (in /bin/bash)
+           n1: 32896 0x140B06: yyparse (in /bin/bash)
+            n1: 32896 0x137314: parse_command (in /bin/bash)
+             n1: 32896 0x137422: read_command (in /bin/bash)
+              n1: 32896 0x1376A2: reader_loop (in /bin/bash)
+               n0: 32896 0x135D6A: main (in /bin/bash)
+    n1: 24672 0x1CE7F2: ??? (in /bin/bash)
+     n0: 24672 in 3 places, all below massif's threshold (1.00%)
+    n1: 20560 0x1CE780: ??? (in /bin/bash)
+     n0: 20560 in 3 places, all below massif's threshold (1.00%)
+    n1: 12336 0x1B6B82: rl_initialize (in /bin/bash)
+     n1: 12336 0x187CF3: initialize_readline (in /bin/bash)
+      n1: 12336 0x137C83: ??? (in /bin/bash)
+       n1: 12336 0x139E51: ??? (in /bin/bash)
+        n1: 12336 0x13D1F8: ??? (in /bin/bash)
+         n1: 12336 0x140B06: yyparse (in /bin/bash)
+          n1: 12336 0x137314: parse_command (in /bin/bash)
+           n1: 12336 0x137422: read_command (in /bin/bash)
+            n1: 12336 0x1376A2: reader_loop (in /bin/bash)
+             n0: 12336 0x135D6A: main (in /bin/bash)
+    n0: 8224 in 1 place, below massif's threshold (1.00%)
+  n2: 91712 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91696 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68384 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60752 0x158677: copy_command (in /bin/bash)
+      n2: 26944 0x1587CA: copy_command (in /bin/bash)
+       n1: 15856 0x1587B8: copy_command (in /bin/bash)
+        n0: 15856 in 10 places, all below massif's threshold (1.00%)
+       n0: 11088 in 8 places, all below massif's threshold (1.00%)
+      n1: 17088 0x1587B8: copy_command (in /bin/bash)
+       n0: 17088 in 10 places, all below massif's threshold (1.00%)
+      n0: 16720 in 9 places, all below massif's threshold (1.00%)
+     n0: 7632 in 8 places, all below massif's threshold (1.00%)
+    n1: 18752 0x1581E5: ??? (in /bin/bash)
+     n0: 18752 in 3 places, all below massif's threshold (1.00%)
+    n0: 4560 in 14 places, all below massif's threshold (1.00%)
+   n0: 16 in 12 places, all below massif's threshold (1.00%)
+  n2: 76498 0x145666: make_bare_word (in /bin/bash)
+   n2: 65569 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61526 0x158677: copy_command (in /bin/bash)
+     n2: 29617 0x1587CA: copy_command (in /bin/bash)
+      n1: 18274 0x1587B8: copy_command (in /bin/bash)
+       n0: 18274 in 10 places, all below massif's threshold (1.00%)
+      n0: 11343 in 8 places, all below massif's threshold (1.00%)
+     n0: 18935 in 9 places, all below massif's threshold (1.00%)
+     n1: 12974 0x1587B8: copy_command (in /bin/bash)
+      n0: 12974 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 10929 in 15 places, all below massif's threshold (1.00%)
+  n2: 68400 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68384 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60752 0x158677: copy_command (in /bin/bash)
+     n2: 26944 0x1587CA: copy_command (in /bin/bash)
+      n1: 15856 0x1587B8: copy_command (in /bin/bash)
+       n0: 15856 in 10 places, all below massif's threshold (1.00%)
+      n0: 11088 in 8 places, all below massif's threshold (1.00%)
+     n1: 17088 0x1587B8: copy_command (in /bin/bash)
+      n0: 17088 in 10 places, all below massif's threshold (1.00%)
+     n0: 16720 in 9 places, all below massif's threshold (1.00%)
+    n0: 7632 in 8 places, all below massif's threshold (1.00%)
+   n0: 16 in 22 places, all below massif's threshold (1.00%)
+  n3: 50240 0x1581BF: ??? (in /bin/bash)
+   n2: 20880 0x158205: ??? (in /bin/bash)
+    n1: 14320 0x158787: copy_command (in /bin/bash)
+     n0: 14320 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 15040 0x15821A: ??? (in /bin/bash)
+    n0: 15040 in 3 places, all below massif's threshold (1.00%)
+   n1: 14320 0x158787: copy_command (in /bin/bash)
+    n0: 14320 in 5 places, all below massif's threshold (1.00%)
+  n2: 47136 0x158664: copy_command (in /bin/bash)
+   n0: 24720 in 10 places, all below massif's threshold (1.00%)
+   n2: 22416 0x1587CA: copy_command (in /bin/bash)
+    n1: 12456 0x1587B8: copy_command (in /bin/bash)
+     n0: 12456 in 10 places, all below massif's threshold (1.00%)
+    n0: 9960 in 8 places, all below massif's threshold (1.00%)
+  n2: 46848 0x1587A0: copy_command (in /bin/bash)
+   n2: 26464 0x1587B8: copy_command (in /bin/bash)
+    n2: 17920 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5312 in 8 places, all below massif's threshold (1.00%)
+    n0: 8544 in 9 places, all below massif's threshold (1.00%)
+   n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16704 0x174F33: hash_insert (in /bin/bash)
+   n0: 16704 in 5 places, all below massif's threshold (1.00%)
+ n0: 50383 in 68 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=63
+#-----------
+time=102766905
+mem_heap_B=852387
+mem_heap_extra_B=349741
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=108882352
+mem_heap_B=857506
+mem_heap_extra_B=349806
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=114880754
+mem_heap_B=855969
+mem_heap_extra_B=349775
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=120867814
+mem_heap_B=856001
+mem_heap_extra_B=349783
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=121042723
+mem_heap_B=867511
+mem_heap_extra_B=350073
+mem_stacks_B=0
+heap_tree=peak
+n2: 867511 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n11: 807495 0x19007C: xmalloc (in /bin/bash)
+  n3: 146464 0x1583F8: copy_command (in /bin/bash)
+   n0: 52768 in 12 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587B8: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+   n2: 46848 0x1587CA: copy_command (in /bin/bash)
+    n2: 26464 0x1587B8: copy_command (in /bin/bash)
+     n2: 17920 0x1587B8: copy_command (in /bin/bash)
+      n1: 12608 0x1587B8: copy_command (in /bin/bash)
+       n0: 12608 in 8 places, all below massif's threshold (1.00%)
+      n0: 5312 in 8 places, all below massif's threshold (1.00%)
+     n0: 8544 in 9 places, all below massif's threshold (1.00%)
+    n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n0: 145797 in 200 places, all below massif's threshold (1.00%)
+  n1: 98688 0x1BA89C: rl_make_bare_keymap (in /bin/bash)
+   n5: 98688 0x1C1285: rl_generic_bind (in /bin/bash)
+    n1: 32896 0x1C336A: rl_parse_and_bind (in /bin/bash)
+     n1: 32896 0x1C3570: ??? (in /bin/bash)
+      n1: 32896 0x1B6AF6: rl_initialize (in /bin/bash)
+       n1: 32896 0x187CF3: initialize_readline (in /bin/bash)
+        n1: 32896 0x137C83: ??? (in /bin/bash)
+         n1: 32896 0x139E51: ??? (in /bin/bash)
+          n1: 32896 0x13D1F8: ??? (in /bin/bash)
+           n1: 32896 0x140B06: yyparse (in /bin/bash)
+            n1: 32896 0x137314: parse_command (in /bin/bash)
+             n1: 32896 0x137422: read_command (in /bin/bash)
+              n1: 32896 0x1376A2: reader_loop (in /bin/bash)
+               n0: 32896 0x135D6A: main (in /bin/bash)
+    n1: 24672 0x1CE7F2: ??? (in /bin/bash)
+     n0: 24672 in 3 places, all below massif's threshold (1.00%)
+    n1: 20560 0x1CE780: ??? (in /bin/bash)
+     n0: 20560 in 3 places, all below massif's threshold (1.00%)
+    n1: 12336 0x1B6B82: rl_initialize (in /bin/bash)
+     n1: 12336 0x187CF3: initialize_readline (in /bin/bash)
+      n1: 12336 0x137C83: ??? (in /bin/bash)
+       n1: 12336 0x139E51: ??? (in /bin/bash)
+        n1: 12336 0x13D1F8: ??? (in /bin/bash)
+         n1: 12336 0x140B06: yyparse (in /bin/bash)
+          n1: 12336 0x137314: parse_command (in /bin/bash)
+           n1: 12336 0x137422: read_command (in /bin/bash)
+            n1: 12336 0x1376A2: reader_loop (in /bin/bash)
+             n0: 12336 0x135D6A: main (in /bin/bash)
+    n0: 8224 in 1 place, below massif's threshold (1.00%)
+  n2: 91744 0x14561C: alloc_word_desc (in /bin/bash)
+   n3: 91728 0x14564C: make_bare_word (in /bin/bash)
+    n2: 68400 0x15826B: copy_word_list (in /bin/bash)
+     n3: 60752 0x158677: copy_command (in /bin/bash)
+      n2: 26944 0x1587CA: copy_command (in /bin/bash)
+       n1: 15856 0x1587B8: copy_command (in /bin/bash)
+        n0: 15856 in 10 places, all below massif's threshold (1.00%)
+       n0: 11088 in 8 places, all below massif's threshold (1.00%)
+      n1: 17088 0x1587B8: copy_command (in /bin/bash)
+       n0: 17088 in 10 places, all below massif's threshold (1.00%)
+      n0: 16720 in 9 places, all below massif's threshold (1.00%)
+     n0: 7648 in 8 places, all below massif's threshold (1.00%)
+    n1: 18752 0x1581E5: ??? (in /bin/bash)
+     n0: 18752 in 3 places, all below massif's threshold (1.00%)
+    n0: 4576 in 14 places, all below massif's threshold (1.00%)
+   n0: 16 in 12 places, all below massif's threshold (1.00%)
+  n2: 76498 0x145666: make_bare_word (in /bin/bash)
+   n2: 65569 0x15826B: copy_word_list (in /bin/bash)
+    n3: 61526 0x158677: copy_command (in /bin/bash)
+     n2: 29617 0x1587CA: copy_command (in /bin/bash)
+      n1: 18274 0x1587B8: copy_command (in /bin/bash)
+       n0: 18274 in 10 places, all below massif's threshold (1.00%)
+      n0: 11343 in 8 places, all below massif's threshold (1.00%)
+     n0: 18935 in 9 places, all below massif's threshold (1.00%)
+     n1: 12974 0x1587B8: copy_command (in /bin/bash)
+      n0: 12974 in 10 places, all below massif's threshold (1.00%)
+    n0: 4043 in 8 places, all below massif's threshold (1.00%)
+   n0: 10929 in 15 places, all below massif's threshold (1.00%)
+  n2: 68432 0x1458C8: make_word_list (in /bin/bash)
+   n2: 68400 0x15827C: copy_word_list (in /bin/bash)
+    n3: 60752 0x158677: copy_command (in /bin/bash)
+     n2: 26944 0x1587CA: copy_command (in /bin/bash)
+      n1: 15856 0x1587B8: copy_command (in /bin/bash)
+       n0: 15856 in 10 places, all below massif's threshold (1.00%)
+      n0: 11088 in 8 places, all below massif's threshold (1.00%)
+     n1: 17088 0x1587B8: copy_command (in /bin/bash)
+      n0: 17088 in 10 places, all below massif's threshold (1.00%)
+     n0: 16720 in 9 places, all below massif's threshold (1.00%)
+    n0: 7648 in 8 places, all below massif's threshold (1.00%)
+   n0: 32 in 22 places, all below massif's threshold (1.00%)
+  n3: 50240 0x1581BF: ??? (in /bin/bash)
+   n2: 20880 0x158205: ??? (in /bin/bash)
+    n1: 14320 0x158787: copy_command (in /bin/bash)
+     n0: 14320 in 5 places, all below massif's threshold (1.00%)
+    n0: 6560 in 2 places, all below massif's threshold (1.00%)
+   n1: 15040 0x15821A: ??? (in /bin/bash)
+    n0: 15040 in 3 places, all below massif's threshold (1.00%)
+   n1: 14320 0x158787: copy_command (in /bin/bash)
+    n0: 14320 in 5 places, all below massif's threshold (1.00%)
+  n2: 47136 0x158664: copy_command (in /bin/bash)
+   n0: 24720 in 10 places, all below massif's threshold (1.00%)
+   n2: 22416 0x1587CA: copy_command (in /bin/bash)
+    n1: 12456 0x1587B8: copy_command (in /bin/bash)
+     n0: 12456 in 10 places, all below massif's threshold (1.00%)
+    n0: 9960 in 8 places, all below massif's threshold (1.00%)
+  n2: 46848 0x1587A0: copy_command (in /bin/bash)
+   n2: 26464 0x1587B8: copy_command (in /bin/bash)
+    n2: 17920 0x1587B8: copy_command (in /bin/bash)
+     n1: 12608 0x1587B8: copy_command (in /bin/bash)
+      n0: 12608 in 8 places, all below massif's threshold (1.00%)
+     n0: 5312 in 8 places, all below massif's threshold (1.00%)
+    n0: 8544 in 9 places, all below massif's threshold (1.00%)
+   n0: 20384 in 9 places, all below massif's threshold (1.00%)
+  n1: 18944 0x174A9A: hash_create (in /bin/bash)
+   n0: 18944 in 7 places, all below massif's threshold (1.00%)
+  n1: 16704 0x174F33: hash_insert (in /bin/bash)
+   n0: 16704 in 5 places, all below massif's threshold (1.00%)
+ n0: 60016 in 70 places, all below massif's threshold (1.00%)
